@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing ackermann_vehicle.egg-info/PKG-INFO
+writing dependency_links to ackermann_vehicle.egg-info/dependency_links.txt
+writing entry points to ackermann_vehicle.egg-info/entry_points.txt
+writing requirements to ackermann_vehicle.egg-info/requires.txt
+writing top-level names to ackermann_vehicle.egg-info/top_level.txt
+reading manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+writing manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann-vehicle.egg-link (link to .)
+
+Installed /home/developer/test_ws/build/ackermann_vehicle
+running symlink_data

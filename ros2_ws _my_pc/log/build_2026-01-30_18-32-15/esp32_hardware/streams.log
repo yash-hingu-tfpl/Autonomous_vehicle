@@ -1,0 +1,21 @@
+[0.023s] Invoking command in '/home/developer/ros2_ws/build/esp32_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o[0m
+[5.134s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_hardware::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.135s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:237:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+[5.135s]   237 |   [01;31m[Ksteering_pub_[m[K->publish(steer_msg);
+[5.135s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[5.135s]       |   [32m[Ksteering_sub_[m[K
+[5.136s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[5.136s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[5.136s]                  from [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:118[m[K:
+[5.136s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K At global scope:
+[5.136s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:258:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.136s]   258 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+[5.137s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.137s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:121:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.137s]   121 | [01;36m[K{[m[K
+[5.137s]       | [01;36m[K^[m[K
+[10.095s] gmake[2]: *** [CMakeFiles/esp32_hardware.dir/build.make:76: CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o] Error 1
+[10.096s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_hardware.dir/all] Error 2
+[10.096s] gmake: *** [Makefile:146: all] Error 2
+[10.100s] Invoked command in '/home/developer/ros2_ws/build/esp32_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4

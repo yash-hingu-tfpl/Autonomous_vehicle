@@ -1,0 +1,22 @@
+[2.382s] Invoking command in '/home/developer/ros2_ws/src/golf_cart_nav2': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data
+[3.295s] running egg_info
+[3.302s] writing ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/PKG-INFO
+[3.303s] writing dependency_links to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/dependency_links.txt
+[3.304s] writing entry points to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/entry_points.txt
+[3.305s] writing requirements to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/requires.txt
+[3.305s] writing top-level names to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/top_level.txt
+[3.308s] reading manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[3.313s] writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[3.314s] running build
+[3.315s] running build_py
+[3.316s] running install
+[3.318s] running install_lib
+[3.322s] running install_data
+[3.322s] running install_egg_info
+[3.325s] removing '/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info' (and everything under it)
+[3.329s] Copying ../../build/golf_cart_nav2/golf_cart_nav2.egg-info to /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info
+[3.334s] running install_scripts
+[3.400s] Installing nav2_to_ackermann script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.402s] Installing pure_pursuit_viz script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.404s] writing list of installed files to '/home/developer/ros2_ws/build/golf_cart_nav2/install.log'
+[3.493s] Invoked command in '/home/developer/ros2_ws/src/golf_cart_nav2' returned '0': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data

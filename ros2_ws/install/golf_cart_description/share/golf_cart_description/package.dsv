@@ -1,0 +1,8 @@
+source;share/golf_cart_description/hook/cmake_prefix_path.ps1
+source;share/golf_cart_description/hook/cmake_prefix_path.dsv
+source;share/golf_cart_description/hook/cmake_prefix_path.sh
+source;share/golf_cart_description/local_setup.bash
+source;share/golf_cart_description/local_setup.dsv
+source;share/golf_cart_description/local_setup.ps1
+source;share/golf_cart_description/local_setup.sh
+source;share/golf_cart_description/local_setup.zsh

@@ -1,0 +1,13 @@
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_hardware::ESP32Hardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:133:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+  133 | [01;31m[Ksteering_pub_[m[K = node_->create_publisher<std_msgs::msg::Float32>(
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+      | [32m[Ksteering_sub_[m[K
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_hardware::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:238:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+  238 |   [01;31m[Ksteering_pub_[m[K->publish(steer_msg);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Ksteering_sub_[m[K
+gmake[2]: *** [CMakeFiles/esp32_hardware.dir/build.make:76: CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

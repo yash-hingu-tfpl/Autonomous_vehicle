@@ -1,0 +1,11 @@
+{
+  "package_name": "isaac_ros_visual_slam_interfaces",
+  "non_idl_tuples": [
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:msg/VisualSlamStatus.msg",
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:srv/GetAllPoses.srv",
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:srv/Reset.srv",
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:srv/SetSlamPose.srv",
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:srv/FilePath.srv",
+    "/home/developer/test_ws/src/isaac_ros_visual_slam_interfaces:srv/LocalizeInMap.srv"
+  ]
+}

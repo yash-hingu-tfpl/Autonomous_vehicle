@@ -1,0 +1,497 @@
+# amcl:
+#   ros__parameters:
+#     use_sim_time: false
+
+# bt_navigator:
+#   ros__parameters:
+#     use_sim_time: false
+#     global_frame: map
+#     robot_base_frame: base_link
+#     odom_topic: /odom
+
+# behavior_server:
+#   ros__parameters:
+#     use_sim_time: false
+
+# waypoint_follower:
+#   ros__parameters:
+#     use_sim_time: false
+
+# velocity_smoother:
+#   ros__parameters:
+#     use_sim_time: false
+#     smoothing_frequency: 20.0
+#     max_velocity: [1.5, 0.0, 1.0]
+#     min_velocity: [0.0, 0.0, -1.0]
+#     max_accel: [1.0, 0.0, 1.0]
+#     max_decel: [-1.0, 0.0, -1.0]
+
+# # ===============================
+# # PLANNER SERVER (SMAC Hybrid A*)
+# # ===============================
+# planner_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     expected_planner_frequency: 5.0
+#     planner_plugins: ["GridBased"]
+
+#     GridBased:
+#       plugin: "nav2_smac_planner/SmacPlannerHybrid"
+#       tolerance: 0.5
+#       downsample_costmap: false
+#       allow_unknown: true
+
+#       minimum_turning_radius: 2.5   # adjust to your cart
+#       reverse_penalty: 2.0
+#       change_penalty: 0.0
+#       non_straight_penalty: 1.2
+#       cost_penalty: 2.0
+#       analytic_expansion_ratio: 3.5
+
+# # ===============================
+# # CONTROLLER SERVER (RPP)
+# # ===============================
+# controller_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     controller_frequency: 20.0
+#     controller_plugins: ["FollowPath"]
+
+#     progress_checker_plugin: "progress_checker"
+#     goal_checker_plugins: ["goal_checker"]
+
+#     progress_checker:
+#       plugin: "nav2_controller::SimpleProgressChecker"
+#       required_movement_radius: 0.5
+#       movement_time_allowance: 10.0
+
+#     goal_checker:
+#       plugin: "nav2_controller::SimpleGoalChecker"
+#       xy_goal_tolerance: 0.5
+#       yaw_goal_tolerance: 0.5
+#       stateful: true
+
+#     FollowPath:
+#       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+
+#       desired_linear_vel: 1.2
+#       max_linear_accel: 1.0
+#       max_linear_decel: 1.0
+
+#       lookahead_dist: 1.5
+#       min_lookahead_dist: 0.8
+#       max_lookahead_dist: 3.0
+#       lookahead_time: 1.5
+
+#       rotate_to_heading_angular_vel: 0.8
+#       transform_tolerance: 0.2
+#       use_velocity_scaled_lookahead_dist: true
+
+#       min_turning_radius: 2.5
+#       use_regulated_linear_velocity_scaling: true
+#       use_collision_detection: true
+
+# # ===============================
+# # LOCAL COSTMAP (Voxel + 3D)
+# # ===============================
+# local_costmap:
+#   local_costmap:
+#     ros__parameters:
+#       update_frequency: 10.0
+#       publish_frequency: 5.0
+
+#       global_frame: odom
+#       robot_base_frame: base_link
+#       use_sim_time: false
+#       rolling_window: true
+#       width: 10
+#       height: 10
+#       resolution: 0.05
+
+#       robot_radius: 0.6
+
+#       plugins: ["voxel_layer", "inflation_layer"]
+
+#       voxel_layer:
+#         plugin: "nav2_costmap_2d::VoxelLayer"
+#         enabled: true
+#         publish_voxel_map: true
+
+#         origin_z: 0.0
+#         z_resolution: 0.1
+#         z_voxels: 16
+#         max_obstacle_height: 2.0
+#         mark_threshold: 0
+
+#         observation_sources: pointcloud
+
+#         pointcloud:
+#           topic: /camera/depth/color/points
+#           max_obstacle_height: 2.0
+#           min_obstacle_height: 0.1
+#           obstacle_range: 10.0
+#           raytrace_range: 12.0
+#           clearing: true
+#           marking: true
+#           data_type: PointCloud2
+
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         inflation_radius: 1.2
+#         cost_scaling_factor: 3.0
+
+# amcl:
+#   ros__parameters:
+#     use_sim_time: false
+
+# bt_navigator:
+#   ros__parameters:
+#     use_sim_time: false
+#     global_frame: map
+#     robot_base_frame: base_link
+#     odom_topic: /odom
+
+# behavior_server:
+#   ros__parameters:
+#     use_sim_time: false
+
+# waypoint_follower:
+#   ros__parameters:
+#     use_sim_time: false
+
+# velocity_smoother:
+#   ros__parameters:
+#     use_sim_time: false
+#     smoothing_frequency: 20.0
+#     max_velocity: [1.5, 0.0, 1.0]
+#     min_velocity: [0.0, 0.0, -1.0]
+#     max_accel: [1.0, 0.0, 1.0]
+#     max_decel: [-1.0, 0.0, -1.0]
+
+# # ===============================
+# # PLANNER SERVER (SMAC Hybrid A*)
+# # ===============================
+# planner_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     expected_planner_frequency: 5.0
+#     planner_plugins: ["GridBased"]
+
+#     GridBased:
+#       plugin: "nav2_smac_planner/SmacPlannerHybrid"
+#       tolerance: 0.5
+#       downsample_costmap: false
+#       allow_unknown: true
+
+#       minimum_turning_radius: 2.5   # adjust to your cart
+#       reverse_penalty: 2.0
+#       change_penalty: 0.0
+#       non_straight_penalty: 1.2
+#       cost_penalty: 2.0
+#       analytic_expansion_ratio: 3.5
+
+# # ===============================
+# # CONTROLLER SERVER (RPP)
+# # ===============================
+# controller_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     controller_frequency: 20.0
+#     controller_plugins: ["FollowPath"]
+
+#     progress_checker_plugin: "progress_checker"
+#     goal_checker_plugins: ["goal_checker"]
+
+#     progress_checker:
+#       plugin: "nav2_controller::SimpleProgressChecker"
+#       required_movement_radius: 0.5
+#       movement_time_allowance: 10.0
+
+#     goal_checker:
+#       plugin: "nav2_controller::SimpleGoalChecker"
+#       xy_goal_tolerance: 0.5
+#       yaw_goal_tolerance: 0.5
+#       stateful: true
+
+#     FollowPath:
+#       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+
+#       desired_linear_vel: 1.2
+#       max_linear_accel: 1.0
+#       max_linear_decel: 1.0
+
+#       lookahead_dist: 1.5
+#       min_lookahead_dist: 0.8
+#       max_lookahead_dist: 3.0
+#       lookahead_time: 1.5
+
+#       rotate_to_heading_angular_vel: 0.8
+#       transform_tolerance: 0.2
+#       use_velocity_scaled_lookahead_dist: true
+
+#       min_turning_radius: 2.5
+#       use_regulated_linear_velocity_scaling: true
+#       use_collision_detection: true
+
+# # ===============================
+# # LOCAL COSTMAP (Voxel + 3D)
+# # ===============================
+# local_costmap:
+#   local_costmap:
+#     ros__parameters:
+#       update_frequency: 10.0
+#       publish_frequency: 5.0
+
+#       global_frame: odom
+#       robot_base_frame: base_link
+#       use_sim_time: false
+#       rolling_window: true
+#       width: 10.0
+#       height: 10.0
+#       resolution: 0.05
+
+#       robot_radius: 0.6
+
+#       plugins: ["voxel_layer", "inflation_layer"]
+
+#       voxel_layer:
+#         plugin: "nav2_costmap_2d::VoxelLayer"
+#         enabled: true
+#         publish_voxel_map: true
+
+#         origin_z: 0.0
+#         z_resolution: 0.1
+#         z_voxels: 16
+#         max_obstacle_height: 2.0
+#         mark_threshold: 0
+
+#         observation_sources: pointcloud
+
+#         pointcloud:
+#           topic: /camera/depth/color/points
+#           max_obstacle_height: 2.0
+#           min_obstacle_height: 0.05
+#           obstacle_range: 10.0
+#           raytrace_range: 12.0
+#           clearing: true
+#           marking: true
+#           data_type: PointCloud2
+
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         inflation_radius: 1.2
+#         cost_scaling_factor: 3.0
+
+# # ===============================
+# # GLOBAL COSTMAP (RTAB Map)
+# # ===============================
+# global_costmap:
+#   global_costmap:
+#     ros__parameters:
+#       update_frequency: 5.0
+#       publish_frequency: 2.0
+
+#       global_frame: map
+#       robot_base_frame: base_link
+#       use_sim_time: false
+#       resolution: 0.05
+#       track_unknown_space: true
+
+#       robot_radius: 0.6
+
+#       plugins: ["static_layer", "inflation_layer"]
+
+#       static_layer:
+#         plugin: "nav2_costmap_2d::StaticLayer"
+#         map_subscribe_transient_local: true
+
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         inflation_radius: 1.2
+#         cost_scaling_factor: 3.0
+
+
+
+# amcl:
+#   ros__parameters:
+#     use_sim_time: false
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+
+behavior_server:
+  ros__parameters:
+    use_sim_time: false
+
+waypoint_follower:
+  ros__parameters:
+    use_sim_time: false
+
+velocity_smoother:
+  ros__parameters:
+    use_sim_time: false
+    smoothing_frequency: 20.0
+    max_velocity: [1.5, 0.0, 1.0]
+    min_velocity: [0.0, 0.0, -1.0]
+    max_accel: [1.0, 0.0, 1.0]
+    max_decel: [-1.0, 0.0, -1.0]
+
+planner_server:
+  ros__parameters:
+    use_sim_time: false
+    expected_planner_frequency: 5.0
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_smac_planner/SmacPlannerHybrid"
+      tolerance: 0.5
+      downsample_costmap: false
+      allow_unknown: true
+      minimum_turning_radius: 2.5
+      reverse_penalty: 2.0
+      change_penalty: 0.0
+      non_straight_penalty: 1.2
+      cost_penalty: 2.0
+      analytic_expansion_ratio: 3.5
+
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 20.0
+    controller_plugins: ["FollowPath"]
+    progress_checker_plugin: "progress_checker"
+    goal_checker_plugins: ["goal_checker"]
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.5
+      movement_time_allowance: 10.0
+    goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.5
+      yaw_goal_tolerance: 0.5
+      stateful: true
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+      desired_linear_vel: 1.2
+      max_linear_accel: 1.0
+      max_linear_decel: 1.0
+      lookahead_dist: 1.5
+      min_lookahead_dist: 0.8
+      max_lookahead_dist: 3.0
+      lookahead_time: 1.5
+      rotate_to_heading_angular_vel: 0.8
+      transform_tolerance: 0.2
+      use_velocity_scaled_lookahead_dist: true
+      min_turning_radius: 2.5
+      use_regulated_linear_velocity_scaling: true
+      use_collision_detection: true
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      update_frequency: 10.0
+      publish_frequency: 5.0
+      global_frame: odom
+      robot_base_frame: base_link
+      use_sim_time: false
+      rolling_window: true
+      width: 10             # Fixed: Integer type
+      height: 10            # Fixed: Integer type
+      resolution: 0.05      # Fixed: Double type
+      robot_radius: 0.6
+      plugins: ["voxel_layer", "inflation_layer"]
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"
+        enabled: true
+        publish_voxel_map: true
+        origin_z: 0.0
+        z_resolution: 0.1
+        z_voxels: 16
+        max_obstacle_height: 2.0
+        mark_threshold: 0
+        observation_sources: pointcloud
+        pointcloud:
+          topic: /camera/depth/color/points
+          max_obstacle_height: 2.0
+          min_obstacle_height: 0.1
+          obstacle_range: 10.0
+          raytrace_range: 12.0
+          clearing: true
+          marking: true
+          data_type: PointCloud2
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 1.2
+        cost_scaling_factor: 3.0
+
+# local_costmap:
+#   local_costmap:
+#     ros__parameters:
+#       update_frequency: 10.0
+#       publish_frequency: 5.0
+#       global_frame: odom
+#       robot_base_frame: base_link
+#       rolling_window: true
+#       width: 10
+#       height: 10
+#       resolution: 0.1
+#       robot_radius: 0.8
+#       plugins: ["stvl_layer", "inflation_layer"]
+
+#       stvl_layer:
+#         plugin: "spatio_temporal_voxel_layer/SpatioTemporalVoxelLayer"
+#         enabled: true
+#         voxel_decay: 1.0     # Obstacles "disappear" after 1 sec if not seen
+#         decay_model: 0       # 0=Linear decay (best for performance)
+#         voxel_size: 0.1      # 10cm voxels
+#         track_unknown_space: true
+#         max_obstacle_height: 2.2
+#         unknown_threshold: 15
+#         mark_threshold: 0
+#         update_footprint_enabled: true
+#         combination_method: 1
+#         origin_z: 0.0
+#         publish_voxel_map: true
+#         transform_tolerance: 0.2
+#         mapping_mode: false
+#         observation_sources: pointcloud
+#         pointcloud:
+#           topic: /camera/depth/color/points
+#           data_type: PointCloud2
+#           marking: true
+#           clearing: true
+#           obstacle_max_range: 5.0   # Don't trust noisy distant data
+#           raytrace_max_range: 7.0
+#           min_obstacle_height: 0.2  # Ignore grass/small bumps
+#           max_obstacle_height: 2.2
+#           # Filtering helps STVL process faster
+#           voxel_filter: true        
+#           decimation_filter: 2
+      
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         inflation_radius: 1.2
+#         cost_scaling_factor: 3.0
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      global_frame: map
+      robot_base_frame: base_link
+      use_sim_time: false
+      resolution: 0.05
+      track_unknown_space: true
+      robot_radius: 0.6
+      plugins: ["static_layer", "inflation_layer"]
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_subscribe_transient_local: true
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 1.2
+        cost_scaling_factor: 3.0

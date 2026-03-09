@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<robot name="ackermann_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="ackermann_control.xacro" />
+  <xacro:property name="wheel_radius" value="0.1" />
+  <xacro:property name="wheel_width" value="0.05" />
+  <xacro:property name="wheelbase" value="0.5" />
+  <xacro:property name="track_width" value="0.4" />
+  <xacro:property name="base_len" value="0.6" />
+  <xacro:property name="base_width" value="0.3" />
+  <xacro:property name="base_height" value="0.1" />
+
+  <material name="blue"><color rgba="0 0 0.8 1"/></material>
+  <material name="black"><color rgba="0 0 0 1"/></material>
+
+  <link name="base_link">
+    <visual>
+      <geometry><box size="${base_len} ${base_width} ${base_height}"/></geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry><box size="${base_len} ${base_width} ${base_height}"/></geometry>
+    </collision>
+    <inertial>
+      <mass value="10.0"/>
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+    </inertial>
+  </link>
+
+  <xacro:macro name="rear_wheel" params="prefix reflect">
+    <link name="rear_${prefix}_wheel">
+      <visual>
+        <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+        <material name="black"/>
+      </visual>
+    </link>
+
+    <joint name="rear_${prefix}_wheel_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="rear_${prefix}_wheel"/>
+      <origin xyz="-${wheelbase/2} ${reflect * track_width/2} 0" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:rear_wheel prefix="left" reflect="1"/>
+  <xacro:rear_wheel prefix="right" reflect="-1"/>
+
+  <xacro:macro name="front_unit" params="prefix reflect">
+    <link name="front_${prefix}_steer_link">
+      <inertial>
+        <mass value="0.5"/>
+        <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+      </inertial>
+    </link>
+
+    <joint name="front_${prefix}_steer_joint" type="revolute">
+      <parent link="base_link"/>
+      <child link="front_${prefix}_steer_link"/>
+      <origin xyz="${wheelbase/2} ${reflect * track_width/2} 0" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-0.6" upper="0.6" effort="10" velocity="1.0"/>
+    </joint>
+
+    <link name="front_${prefix}_wheel">
+      <visual>
+        <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+        <geometry><cylinder radius="${wheel_radius}" length="${wheel_width}"/></geometry>
+        <material name="black"/>
+      </visual>
+    </link>
+
+    <joint name="front_${prefix}_wheel_joint" type="continuous">
+      <parent link="front_${prefix}_steer_link"/>
+      <child link="front_${prefix}_wheel"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+    </joint>
+  </xacro:macro>
+
+  <xacro:front_unit prefix="left" reflect="1"/>
+  <xacro:front_unit prefix="right" reflect="-1"/>
+
+</robot>

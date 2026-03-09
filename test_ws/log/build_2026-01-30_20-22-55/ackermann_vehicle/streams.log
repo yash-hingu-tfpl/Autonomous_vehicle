@@ -1,0 +1,21 @@
+[1.591s] Invoking command in '/home/developer/test_ws/src/ackermann_vehicle': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_vehicle build --build-base /home/developer/test_ws/build/ackermann_vehicle/build install --record /home/developer/test_ws/build/ackermann_vehicle/install.log --single-version-externally-managed install_data
+[2.234s] running egg_info
+[2.236s] writing ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/dependency_links.txt
+[2.237s] writing entry points to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/entry_points.txt
+[2.237s] writing requirements to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/requires.txt
+[2.239s] writing top-level names to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/top_level.txt
+[2.243s] reading manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'
+[2.247s] running build
+[2.248s] running build_py
+[2.248s] running install
+[2.249s] running install_lib
+[2.254s] running install_data
+[2.254s] copying description/fake_cart.xacro -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description
+[2.254s] running install_egg_info
+[2.257s] removing '/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info' (and everything under it)
+[2.258s] Copying ../../build/ackermann_vehicle/ackermann_vehicle.egg-info to /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info
+[2.261s] running install_scripts
+[2.303s] writing list of installed files to '/home/developer/test_ws/build/ackermann_vehicle/install.log'
+[2.367s] Invoked command in '/home/developer/test_ws/src/ackermann_vehicle' returned '0': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ackermann_vehicle build --build-base /home/developer/test_ws/build/ackermann_vehicle/build install --record /home/developer/test_ws/build/ackermann_vehicle/install.log --single-version-externally-managed install_data

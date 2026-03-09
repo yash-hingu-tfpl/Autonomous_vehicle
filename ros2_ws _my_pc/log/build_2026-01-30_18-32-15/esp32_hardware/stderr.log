@@ -1,0 +1,18 @@
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_hardware::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:237:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+  237 |   [01;31m[Ksteering_pub_[m[K->publish(steer_msg);
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+      |   [32m[Ksteering_sub_[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:118[m[K:
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K At global scope:
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:258:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  258 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:121:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  121 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/esp32_hardware.dir/build.make:76: CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_hardware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

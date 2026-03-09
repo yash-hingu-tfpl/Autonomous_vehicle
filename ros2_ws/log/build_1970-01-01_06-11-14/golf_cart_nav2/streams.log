@@ -1,0 +1,85 @@
+[1.423s] Invoking command in '/home/developer/ros2_ws/src/golf_cart_nav2': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data
+[1.932s] running egg_info
+[1.933s] creating ../../build/golf_cart_nav2/golf_cart_nav2.egg-info
+[1.934s] writing ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/dependency_links.txt
+[1.934s] writing entry points to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/entry_points.txt
+[1.935s] writing requirements to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/requires.txt
+[1.935s] writing top-level names to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/top_level.txt
+[1.935s] writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[1.939s] reading manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[1.940s] writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[1.940s] running build
+[1.940s] running build_py
+[1.941s] creating /home/developer/ros2_ws/build/golf_cart_nav2/build
+[1.941s] creating /home/developer/ros2_ws/build/golf_cart_nav2/build/lib
+[1.941s] creating /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.941s] copying golf_cart_nav2/convert_poses_to_path.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.941s] copying golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.941s] copying golf_cart_nav2/nav2_to_ackermann.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.942s] copying golf_cart_nav2/path_follower.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.942s] copying golf_cart_nav2/path_publisher.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.942s] copying golf_cart_nav2/pure_pursuit_tf.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.942s] copying golf_cart_nav2/pure_pursuit_node_viz.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.942s] copying golf_cart_nav2/pure_pursuit_speed.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.943s] copying golf_cart_nav2/stanley_with_filter.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.943s] copying golf_cart_nav2/pure_pursuit_node.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.943s] copying golf_cart_nav2/__init__.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.943s] copying golf_cart_nav2/follow_path.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.943s] copying golf_cart_nav2/pure_pursuit_local.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[1.944s] running install
+[1.945s] running install_lib
+[1.946s] creating /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.946s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/convert_poses_to_path.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.947s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.947s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/nav2_to_ackermann.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.947s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/path_follower.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.947s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/path_publisher.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.948s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_tf.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.948s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_node_viz.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.948s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_speed.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.948s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/stanley_with_filter.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.949s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_node.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.949s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/__init__.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.949s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/follow_path.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.949s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_local.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[1.950s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/convert_poses_to_path.py to convert_poses_to_path.cpython-310.pyc
+[1.951s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/stanley_controller_tf.py to stanley_controller_tf.cpython-310.pyc
+[1.953s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/nav2_to_ackermann.py to nav2_to_ackermann.cpython-310.pyc
+[1.954s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/path_follower.py to path_follower.cpython-310.pyc
+[1.955s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/path_publisher.py to path_publisher.cpython-310.pyc
+[1.956s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_tf.py to pure_pursuit_tf.cpython-310.pyc
+[1.958s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_node_viz.py to pure_pursuit_node_viz.cpython-310.pyc
+[1.960s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_speed.py to pure_pursuit_speed.cpython-310.pyc
+[1.962s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/stanley_with_filter.py to stanley_with_filter.cpython-310.pyc
+[1.963s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_node.py to pure_pursuit_node.cpython-310.pyc
+[1.965s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/__init__.py to __init__.cpython-310.pyc
+[1.965s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/follow_path.py to follow_path.cpython-310.pyc
+[1.966s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_local.py to pure_pursuit_local.cpython-310.pyc
+[1.968s] running install_data
+[1.968s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index
+[1.968s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index
+[1.968s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index/packages
+[1.968s] copying resource/golf_cart_nav2 -> /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index/packages
+[1.968s] copying package.xml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2
+[1.968s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/launch
+[1.969s] copying launch/depth_to_scan.launch.py -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/launch
+[1.980s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+[1.980s] copying config/nav2_params.yaml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+[1.980s] copying config/nav2_params_new.yaml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+[1.980s] creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/maps
+[1.980s] running install_egg_info
+[1.984s] Copying ../../build/golf_cart_nav2/golf_cart_nav2.egg-info to /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info
+[1.985s] running install_scripts
+[2.023s] Installing follow_path script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.023s] Installing nav2_to_ackermann script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.023s] Installing path_follower script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing path_publisher script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing pure_pursuit_local script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing pure_pursuit_speed script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing pure_pursuit_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing pure_pursuit_viz script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing stanley_controller_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.024s] Installing stanley_with_filter script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[2.025s] writing list of installed files to '/home/developer/ros2_ws/build/golf_cart_nav2/install.log'
+[2.090s] Invoked command in '/home/developer/ros2_ws/src/golf_cart_nav2' returned '0': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data

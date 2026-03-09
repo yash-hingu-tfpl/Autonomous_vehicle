@@ -1,0 +1,10 @@
+<library path="esp32_hardware">
+  <class
+    name="esp32_hardware/ESP32Hardware"
+    type="esp32_hardware::ESP32Hardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      ESP32 Ackermann Hardware Interface
+    </description>
+  </class>
+</library>

@@ -1,0 +1,32 @@
+[2.320s] Invoking command in '/home/developer/ros2_ws/src/golf_cart_nav2': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data
+[2.882s] running egg_info
+[2.887s] writing ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/PKG-INFO
+[2.927s] writing dependency_links to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/dependency_links.txt
+[2.928s] writing entry points to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/entry_points.txt
+[2.928s] writing requirements to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/requires.txt
+[2.928s] writing top-level names to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/top_level.txt
+[2.938s] reading manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[2.940s] writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+[2.941s] running build
+[2.941s] running build_py
+[2.941s] copying golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+[2.945s] running install
+[2.947s] running install_lib
+[2.953s] copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+[2.955s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/stanley_controller_tf.py to stanley_controller_tf.cpython-310.pyc
+[2.960s] byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_node_viz.py to pure_pursuit_node_viz.cpython-310.pyc
+[2.963s] running install_data
+[2.963s] running install_egg_info
+[2.968s] removing '/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info' (and everything under it)
+[2.969s] Copying ../../build/golf_cart_nav2/golf_cart_nav2.egg-info to /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info
+[2.972s] running install_scripts
+[3.021s] Installing follow_path script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.021s] Installing nav2_to_ackermann script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.021s] Installing path_follower script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.022s] Installing path_publisher script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.022s] Installing pure_pursuit_local script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.022s] Installing pure_pursuit_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.023s] Installing pure_pursuit_viz script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.023s] Installing stanley_controller_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+[3.025s] writing list of installed files to '/home/developer/ros2_ws/build/golf_cart_nav2/install.log'
+[3.122s] Invoked command in '/home/developer/ros2_ws/src/golf_cart_nav2' returned '0': PYTHONPATH=/home/developer/ros2_ws/build/golf_cart_nav2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/golf_cart_nav2 build --build-base /home/developer/ros2_ws/build/golf_cart_nav2/build install --record /home/developer/ros2_ws/build/golf_cart_nav2/install.log --single-version-externally-managed install_data

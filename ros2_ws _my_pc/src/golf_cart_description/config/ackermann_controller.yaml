@@ -1,0 +1,29 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    use_sim_time: true
+
+    ackermann_steering_controller:
+      type: ackermann_steering_controller/AckermannSteeringController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+ackermann_steering_controller:
+  ros__parameters:
+    rear_wheels_names:
+      - rear_left_wheel_joint
+      - rear_right_wheel_joint
+
+    front_steering_name: steering_joint
+
+    wheelbase: 2.30
+    rear_wheel_track: 1.005
+    rear_wheel_radius: 0.2355
+
+    base_frame_id: base_link
+    odom_frame_id: odom
+    enable_odom_tf: true
+
+    cmd_vel_timeout: 0.5
+    publish_rate: 50.0

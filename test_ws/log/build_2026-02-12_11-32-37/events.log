@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001082] (-) JobUnselected: {'identifier': 'ackermann_vehicle'}
+[0.001358] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam_interfaces'}
+[0.001401] (isaac_ros_visual_slam) JobQueued: {'identifier': 'isaac_ros_visual_slam', 'dependencies': OrderedDict([('isaac_ros_visual_slam_interfaces', '/home/developer/test_ws/install/isaac_ros_visual_slam_interfaces')])}
+[0.001442] (isaac_ros_visual_slam) JobStarted: {'identifier': 'isaac_ros_visual_slam'}
+[0.034155] (isaac_ros_visual_slam) JobEnded: {'identifier': 'isaac_ros_visual_slam', 'rc': 1}
+[0.044932] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+[1.857s] Invoking command in '/home/developer/test_ws/build/ackermann_vehicle': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/test_ws/build/ackermann_vehicle/build --no-deps symlink_data
+[2.817s] running develop
+[3.408s] running egg_info
+[3.408s] writing ackermann_vehicle.egg-info/PKG-INFO
+[3.408s] writing dependency_links to ackermann_vehicle.egg-info/dependency_links.txt
+[3.409s] writing entry points to ackermann_vehicle.egg-info/entry_points.txt
+[3.409s] writing requirements to ackermann_vehicle.egg-info/requires.txt
+[3.409s] writing top-level names to ackermann_vehicle.egg-info/top_level.txt
+[3.412s] reading manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+[3.414s] writing manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+[3.416s] running build_ext
+[3.417s] Creating /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann-vehicle.egg-link (link to .)
+[3.418s] 
+[3.418s] Installed /home/developer/test_ws/build/ackermann_vehicle
+[3.419s] running symlink_data
+[3.485s] Invoked command in '/home/developer/test_ws/build/ackermann_vehicle' returned '0': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/test_ws/build/ackermann_vehicle/build --no-deps symlink_data

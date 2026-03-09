@@ -1,0 +1,26 @@
+[0.045s] Invoking command in '/home/developer/test_ws/build/isaac_ros_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake /home/developer/test_ws/src/isaac_ros_common/isaac_ros_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/test_ws/install/isaac_ros_common
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.412s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.612s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.637s] -- Detecting C compile features - done
+[0.644s] -- Detecting CXX compiler ABI info
+[0.835s] -- Detecting CXX compiler ABI info - done
+[0.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.856s] -- Detecting CXX compile features
+[0.858s] -- Detecting CXX compile features - done
+[0.894s] [31mCMake Error at /usr/share/cmake-3.22/Modules/CMakeDetermineCUDACompiler.cmake:179 (message):
+[0.894s]   Failed to find nvcc.
+[0.894s] 
+[0.894s]   Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+[0.894s]   variable.
+[0.895s] Call Stack (most recent call first):
+[0.895s]   CMakeLists.txt:24 (enable_language)
+[0.895s] 
+[0.896s] [0m
+[0.896s] -- Configuring incomplete, errors occurred!
+[0.896s] See also "/home/developer/test_ws/build/isaac_ros_common/CMakeFiles/CMakeOutput.log".
+[0.896s] See also "/home/developer/test_ws/build/isaac_ros_common/CMakeFiles/CMakeError.log".
+[0.901s] Invoked command in '/home/developer/test_ws/build/isaac_ros_common' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake /home/developer/test_ws/src/isaac_ros_common/isaac_ros_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/test_ws/install/isaac_ros_common

@@ -1,0 +1,90 @@
+# amcl:
+#   ros__parameters:
+#     use_sim_time: false
+
+# bt_navigator:
+#   ros__parameters:
+#     use_sim_time: false
+
+# controller_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     controller_frequency: 20.0
+
+#     FollowPath:
+#       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+#       desired_linear_vel: 1.0
+#       max_linear_accel: 1.0
+#       lookahead_dist: 2.0
+#       min_lookahead_dist: 1.0
+#       max_lookahead_dist: 3.0
+#       allow_reversing: false
+
+# planner_server:
+#   ros__parameters:
+#     use_sim_time: false
+#     expected_planner_frequency: 5.0
+
+#     GridBased:
+#       plugin: "nav2_navfn_planner/NavfnPlanner"
+
+# costmap_global:
+#   ros__parameters:
+#     global_frame: map
+#     robot_base_frame: base_link
+#     resolution: 0.1
+#     plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+# costmap_local:
+#   ros__parameters:
+#     global_frame: odom
+#     robot_base_frame: base_link
+#     rolling_window: true
+#     width: 8
+#     height: 8
+#     resolution: 0.1
+#     plugins: ["obstacle_layer", "inflation_layer"]
+
+# velocity_smoother:
+#   ros__parameters:
+#     smoothing_frequency: 20.0
+
+
+planner_server:
+  ros__parameters:
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_smac_planner/SmacPlannerHybrid"
+      minimum_turning_radius: 4.0
+      motion_model_for_search: "DUBIN"
+
+controller_server:
+  ros__parameters:
+    controller_plugins: ["FollowPath"]
+    FollowPath:
+      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+      lookahead_dist: 2.5
+      max_linear_accel: 0.72
+      max_linear_decel: 0.72
+      desired_linear_vel: 0.72
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      global_frame: odom
+      robot_base_frame: base_link
+      # robot_base_frame: base_link
+
+      rolling_window: true
+      plugins: ["obstacle_layer", "inflation_layer"]
+
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        observation_sources: depth
+        depth:
+          topic: /camera/depth/color/points
+          data_type: PointCloud2
+      
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer" # <--- ADD THIS LINE
+        inflation_radius: 1.2  #0.7  # Suggested: slightly larger than robot half-width

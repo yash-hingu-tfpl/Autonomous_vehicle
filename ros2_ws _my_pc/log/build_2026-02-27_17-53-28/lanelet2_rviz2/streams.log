@@ -1,0 +1,81 @@
+[0.018s] Invoking command in '/home/developer/ros2_ws/build/lanelet2_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/ros2_ws/src/lanelet2_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/install/lanelet2_rviz2
+[0.226s] -- The C compiler identification is GNU 11.4.0
+[0.370s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.478s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.489s] -- Detecting C compile features
+[0.490s] -- Detecting C compile features - done
+[0.495s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.613s] -- Detecting CXX compile features
+[0.614s] -- Detecting CXX compile features - done
+[0.626s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.849s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.946s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.015s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.109s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.121s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.139s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.287s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.293s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.438s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.477s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.555s] -- Looking for pthread.h
+[1.658s] -- Looking for pthread.h - found
+[1.659s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.754s] -- Found Threads: TRUE  
+[1.857s] -- Found mrt_cmake_modules: 1.0.11 (/opt/ros/humble/share/mrt_cmake_modules/cmake)
+[2.005s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+[2.339s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.449s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.450s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.461s] -- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+[2.473s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.478s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  
+[2.484s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.580s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.707s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.707s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/ros2_ws/src/lanelet2_rviz2/include>
+[2.707s] -- Configured cppcheck exclude dirs and/or files: 
+[2.709s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.710s] -- Added test 'lint_cmake' to check CMake code style
+[2.712s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.716s] -- Added test 'uncrustify' to check C / C++ code style
+[2.716s] -- Configured uncrustify additional arguments: 
+[2.718s] -- Added test 'xmllint' to check XML markup files
+[2.720s] -- Configuring done
+[2.753s] -- Generating done
+[2.759s] -- Build files have been written to: /home/developer/ros2_ws/build/lanelet2_rviz2
+[2.774s] Invoked command in '/home/developer/ros2_ws/build/lanelet2_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/developer/ros2_ws/src/lanelet2_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/install/lanelet2_rviz2
+[2.777s] Invoking command in '/home/developer/ros2_ws/build/lanelet2_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/lanelet2_rviz2 -- -j4 -l4
+[2.841s] [ 50%] [32mBuilding CXX object CMakeFiles/lanelet2_rviz2.dir/src/laneletviz.cpp.o[0m
+[13.837s] [100%] [32m[1mLinking CXX executable lanelet2_rviz2[0m
+[14.320s] [100%] Built target lanelet2_rviz2
+[14.334s] Invoked command in '/home/developer/ros2_ws/build/lanelet2_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/lanelet2_rviz2 -- -j4 -l4
+[14.346s] Invoking command in '/home/developer/ros2_ws/build/lanelet2_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/ros2_ws/build/lanelet2_rviz2
+[14.356s] -- Install configuration: ""
+[14.357s] -- Execute custom install script
+[14.357s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/lib/lanelet2_rviz2/lanelet2_rviz2
+[14.368s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/launch/visualize_osm.launch.py
+[14.380s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/package_run_dependencies/lanelet2_rviz2
+[14.391s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/parent_prefix_path/lanelet2_rviz2
+[14.402s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/ament_prefix_path.sh
+[14.413s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/ament_prefix_path.dsv
+[14.424s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/path.sh
+[14.435s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/path.dsv
+[14.446s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.bash
+[14.457s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.sh
+[14.468s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.zsh
+[14.481s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.dsv
+[14.492s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/package.dsv
+[14.504s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/packages/lanelet2_rviz2
+[14.515s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/cmake/lanelet2_rviz2Config.cmake
+[14.525s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/cmake/lanelet2_rviz2Config-version.cmake
+[14.536s] -- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/package.xml
+[14.549s] Invoked command in '/home/developer/ros2_ws/build/lanelet2_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/developer/ros2_ws/build/lanelet2_rviz2

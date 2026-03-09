@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.001068] (-) JobUnselected: {'identifier': 'esp32_hardware'}
+[0.001217] (-) JobUnselected: {'identifier': 'golf_cart_description'}
+[0.001252] (-) JobUnselected: {'identifier': 'golf_cart_nav2'}
+[0.001280] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001307] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001334] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001362] (lanelet2_rviz2) JobQueued: {'identifier': 'lanelet2_rviz2', 'dependencies': OrderedDict()}
+[0.001393] (lanelet2_rviz2) JobStarted: {'identifier': 'lanelet2_rviz2'}
+[0.017881] (lanelet2_rviz2) JobProgress: {'identifier': 'lanelet2_rviz2', 'progress': 'cmake'}
+[0.018707] (lanelet2_rviz2) Command: {'cmd': ['/usr/bin/cmake', '/home/developer/ros2_ws/src/lanelet2_rviz2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/install/lanelet2_rviz2'], 'cwd': '/home/developer/ros2_ws/build/lanelet2_rviz2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('XDG_SESSION_TYPE', 'wayland'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('OLDPWD', '/home/developer/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1749'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:13256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1882,unix/developer:/tmp/.ICE-unix/1882'), ('INVOCATION_ID', 'f17b6a641e0548a796a984249ca649dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R4TTL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fc6b8f3c-475c-460c-bed9-49562f191c68'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/lanelet2_rviz2'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[0.099601] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.226913] (lanelet2_rviz2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300028] (-) TimerEvent: {}
+[0.371225] (lanelet2_rviz2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.383923] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400126] (-) TimerEvent: {}
+[0.478987] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.489245] (lanelet2_rviz2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.490225] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.491373] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.496713] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500245] (-) TimerEvent: {}
+[0.600574] (-) TimerEvent: {}
+[0.603590] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.614253] (lanelet2_rviz2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.614758] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.615450] (lanelet2_rviz2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.627009] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.700675] (-) TimerEvent: {}
+[0.800975] (-) TimerEvent: {}
+[0.850161] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901104] (-) TimerEvent: {}
+[0.947185] (lanelet2_rviz2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.001244] (-) TimerEvent: {}
+[1.015920] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.101376] (-) TimerEvent: {}
+[1.110611] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.122067] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.140238] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.167067] (lanelet2_rviz2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.198312] (lanelet2_rviz2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201457] (-) TimerEvent: {}
+[1.287936] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.293849] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.301581] (-) TimerEvent: {}
+[1.401924] (-) TimerEvent: {}
+[1.438927] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.478645] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502049] (-) TimerEvent: {}
+[1.535381] (lanelet2_rviz2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.556035] (lanelet2_rviz2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.602188] (-) TimerEvent: {}
+[1.659240] (lanelet2_rviz2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.659984] (lanelet2_rviz2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.702308] (-) TimerEvent: {}
+[1.753342] (lanelet2_rviz2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.754946] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.802439] (-) TimerEvent: {}
+[1.858701] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found mrt_cmake_modules: 1.0.11 (/opt/ros/humble/share/mrt_cmake_modules/cmake)\n'}
+[1.902672] (-) TimerEvent: {}
+[2.003012] (-) TimerEvent: {}
+[2.006469] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams \n'}
+[2.103140] (-) TimerEvent: {}
+[2.203581] (-) TimerEvent: {}
+[2.303982] (-) TimerEvent: {}
+[2.340263] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.404129] (-) TimerEvent: {}
+[2.450301] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.450934] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.461904] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  \n'}
+[2.474583] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.479575] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/x86_64-linux-gnu/libGeographic.so  \n'}
+[2.485113] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.504250] (-) TimerEvent: {}
+[2.581351] (lanelet2_rviz2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.604371] (-) TimerEvent: {}
+[2.704688] (-) TimerEvent: {}
+[2.707776] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.708182] (lanelet2_rviz2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/ros2_ws/src/lanelet2_rviz2/include>\n'}
+[2.708363] (lanelet2_rviz2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.709766] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.711586] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.713012] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.717472] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.717755] (lanelet2_rviz2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.719020] (lanelet2_rviz2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.721579] (lanelet2_rviz2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.754585] (lanelet2_rviz2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.760321] (lanelet2_rviz2) StdoutLine: {'line': b'-- Build files have been written to: /home/developer/ros2_ws/build/lanelet2_rviz2\n'}
+[2.774926] (lanelet2_rviz2) CommandEnded: {'returncode': 0}
+[2.775793] (lanelet2_rviz2) JobProgress: {'identifier': 'lanelet2_rviz2', 'progress': 'build'}
+[2.777384] (lanelet2_rviz2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/ros2_ws/build/lanelet2_rviz2', '--', '-j4', '-l4'], 'cwd': '/home/developer/ros2_ws/build/lanelet2_rviz2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('XDG_SESSION_TYPE', 'wayland'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('OLDPWD', '/home/developer/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1749'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:13256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1882,unix/developer:/tmp/.ICE-unix/1882'), ('INVOCATION_ID', 'f17b6a641e0548a796a984249ca649dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R4TTL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fc6b8f3c-475c-460c-bed9-49562f191c68'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/lanelet2_rviz2'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[2.804816] (-) TimerEvent: {}
+[2.841769] (lanelet2_rviz2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lanelet2_rviz2.dir/src/laneletviz.cpp.o\x1b[0m\n'}
+[2.904942] (-) TimerEvent: {}
+[3.005264] (-) TimerEvent: {}
+[3.105583] (-) TimerEvent: {}
+[3.205914] (-) TimerEvent: {}
+[3.306255] (-) TimerEvent: {}
+[3.406602] (-) TimerEvent: {}
+[3.506973] (-) TimerEvent: {}
+[3.607323] (-) TimerEvent: {}
+[3.707726] (-) TimerEvent: {}
+[3.808113] (-) TimerEvent: {}
+[3.908489] (-) TimerEvent: {}
+[4.008885] (-) TimerEvent: {}
+[4.109258] (-) TimerEvent: {}
+[4.209706] (-) TimerEvent: {}
+[4.310154] (-) TimerEvent: {}
+[4.410599] (-) TimerEvent: {}
+[4.511015] (-) TimerEvent: {}
+[4.611440] (-) TimerEvent: {}
+[4.711916] (-) TimerEvent: {}
+[4.812327] (-) TimerEvent: {}
+[4.912776] (-) TimerEvent: {}
+[5.013201] (-) TimerEvent: {}
+[5.113612] (-) TimerEvent: {}
+[5.214002] (-) TimerEvent: {}
+[5.314427] (-) TimerEvent: {}
+[5.414892] (-) TimerEvent: {}
+[5.515304] (-) TimerEvent: {}
+[5.615727] (-) TimerEvent: {}
+[5.716117] (-) TimerEvent: {}
+[5.816560] (-) TimerEvent: {}
+[5.916979] (-) TimerEvent: {}
+[6.017388] (-) TimerEvent: {}
+[6.117832] (-) TimerEvent: {}
+[6.218246] (-) TimerEvent: {}
+[6.318671] (-) TimerEvent: {}
+[6.419057] (-) TimerEvent: {}
+[6.519467] (-) TimerEvent: {}
+[6.619915] (-) TimerEvent: {}
+[6.720334] (-) TimerEvent: {}
+[6.820770] (-) TimerEvent: {}
+[6.921182] (-) TimerEvent: {}
+[7.021599] (-) TimerEvent: {}
+[7.122023] (-) TimerEvent: {}
+[7.222433] (-) TimerEvent: {}
+[7.322865] (-) TimerEvent: {}
+[7.423265] (-) TimerEvent: {}
+[7.523715] (-) TimerEvent: {}
+[7.624065] (-) TimerEvent: {}
+[7.724430] (-) TimerEvent: {}
+[7.824859] (-) TimerEvent: {}
+[7.925271] (-) TimerEvent: {}
+[8.025718] (-) TimerEvent: {}
+[8.126132] (-) TimerEvent: {}
+[8.226569] (-) TimerEvent: {}
+[8.326988] (-) TimerEvent: {}
+[8.427406] (-) TimerEvent: {}
+[8.527861] (-) TimerEvent: {}
+[8.628264] (-) TimerEvent: {}
+[8.728680] (-) TimerEvent: {}
+[8.829089] (-) TimerEvent: {}
+[8.929505] (-) TimerEvent: {}
+[9.029949] (-) TimerEvent: {}
+[9.130316] (-) TimerEvent: {}
+[9.230693] (-) TimerEvent: {}
+[9.331054] (-) TimerEvent: {}
+[9.431411] (-) TimerEvent: {}
+[9.531793] (-) TimerEvent: {}
+[9.632158] (-) TimerEvent: {}
+[9.732546] (-) TimerEvent: {}
+[9.832906] (-) TimerEvent: {}
+[9.933267] (-) TimerEvent: {}
+[10.033635] (-) TimerEvent: {}
+[10.133998] (-) TimerEvent: {}
+[10.234364] (-) TimerEvent: {}
+[10.334750] (-) TimerEvent: {}
+[10.435099] (-) TimerEvent: {}
+[10.535436] (-) TimerEvent: {}
+[10.635826] (-) TimerEvent: {}
+[10.736189] (-) TimerEvent: {}
+[10.836577] (-) TimerEvent: {}
+[10.936928] (-) TimerEvent: {}
+[11.037291] (-) TimerEvent: {}
+[11.137660] (-) TimerEvent: {}
+[11.238028] (-) TimerEvent: {}
+[11.338405] (-) TimerEvent: {}
+[11.438821] (-) TimerEvent: {}
+[11.539138] (-) TimerEvent: {}
+[11.639456] (-) TimerEvent: {}
+[11.739803] (-) TimerEvent: {}
+[11.840127] (-) TimerEvent: {}
+[11.940461] (-) TimerEvent: {}
+[12.040814] (-) TimerEvent: {}
+[12.141138] (-) TimerEvent: {}
+[12.241457] (-) TimerEvent: {}
+[12.341804] (-) TimerEvent: {}
+[12.442134] (-) TimerEvent: {}
+[12.542461] (-) TimerEvent: {}
+[12.642816] (-) TimerEvent: {}
+[12.743158] (-) TimerEvent: {}
+[12.843492] (-) TimerEvent: {}
+[12.943851] (-) TimerEvent: {}
+[13.044181] (-) TimerEvent: {}
+[13.144511] (-) TimerEvent: {}
+[13.244858] (-) TimerEvent: {}
+[13.345192] (-) TimerEvent: {}
+[13.445534] (-) TimerEvent: {}
+[13.545852] (-) TimerEvent: {}
+[13.646160] (-) TimerEvent: {}
+[13.746491] (-) TimerEvent: {}
+[13.837987] (lanelet2_rviz2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lanelet2_rviz2\x1b[0m\n'}
+[13.846617] (-) TimerEvent: {}
+[13.947004] (-) TimerEvent: {}
+[14.047441] (-) TimerEvent: {}
+[14.147878] (-) TimerEvent: {}
+[14.248271] (-) TimerEvent: {}
+[14.321063] (lanelet2_rviz2) StdoutLine: {'line': b'[100%] Built target lanelet2_rviz2\n'}
+[14.334947] (lanelet2_rviz2) CommandEnded: {'returncode': 0}
+[14.335853] (lanelet2_rviz2) JobProgress: {'identifier': 'lanelet2_rviz2', 'progress': 'install'}
+[14.346581] (lanelet2_rviz2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/ros2_ws/build/lanelet2_rviz2'], 'cwd': '/home/developer/ros2_ws/build/lanelet2_rviz2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('XDG_SESSION_TYPE', 'wayland'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('OLDPWD', '/home/developer/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1749'), ('SYSTEMD_EXEC_PID', '1911'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4092'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:13256'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1882,unix/developer:/tmp/.ICE-unix/1882'), ('INVOCATION_ID', 'f17b6a641e0548a796a984249ca649dc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R4TTL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:fc6b8f3c-475c-460c-bed9-49562f191c68'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/lanelet2_rviz2'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble')]), 'shell': False}
+[14.348291] (-) TimerEvent: {}
+[14.356988] (lanelet2_rviz2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.357710] (lanelet2_rviz2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.358327] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/lib/lanelet2_rviz2/lanelet2_rviz2\n'}
+[14.369380] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/launch/visualize_osm.launch.py\n'}
+[14.380979] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/package_run_dependencies/lanelet2_rviz2\n'}
+[14.392542] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/parent_prefix_path/lanelet2_rviz2\n'}
+[14.403446] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/ament_prefix_path.sh\n'}
+[14.414513] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/ament_prefix_path.dsv\n'}
+[14.425527] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/path.sh\n'}
+[14.436420] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/environment/path.dsv\n'}
+[14.447350] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.bash\n'}
+[14.448397] (-) TimerEvent: {}
+[14.458173] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.sh\n'}
+[14.469443] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.zsh\n'}
+[14.482088] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/local_setup.dsv\n'}
+[14.493515] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/package.dsv\n'}
+[14.504750] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/ament_index/resource_index/packages/lanelet2_rviz2\n'}
+[14.515834] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/cmake/lanelet2_rviz2Config.cmake\n'}
+[14.526538] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/cmake/lanelet2_rviz2Config-version.cmake\n'}
+[14.537160] (lanelet2_rviz2) StdoutLine: {'line': b'-- Symlinking: /home/developer/ros2_ws/install/lanelet2_rviz2/share/lanelet2_rviz2/package.xml\n'}
+[14.548541] (-) TimerEvent: {}
+[14.550276] (lanelet2_rviz2) CommandEnded: {'returncode': 0}
+[14.582678] (lanelet2_rviz2) JobEnded: {'identifier': 'lanelet2_rviz2', 'rc': 0}
+[14.583617] (-) EventReactorShutdown: {}

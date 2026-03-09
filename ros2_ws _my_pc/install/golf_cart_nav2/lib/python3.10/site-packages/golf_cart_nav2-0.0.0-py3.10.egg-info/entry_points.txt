@@ -1,0 +1,14 @@
+[console_scripts]
+Safety_Supervisor_node = golf_cart_nav2.Safety_Supervisor_node:main
+esp_parameter_load = golf_cart_nav2.esp_parameter_load:main
+follow_path = golf_cart_nav2.follow_path:main
+nav2_to_ackermann = golf_cart_nav2.nav2_to_ackermann:main
+object_detection_node = golf_cart_nav2.object_detection_node:main
+path_follower = golf_cart_nav2.path_follower:main
+path_publisher = golf_cart_nav2.path_publisher:main
+pure_pursuit_local = golf_cart_nav2.pure_pursuit_local:main
+pure_pursuit_speed = golf_cart_nav2.pure_pursuit_speed:main
+pure_pursuit_tf = golf_cart_nav2.pure_pursuit_tf:main
+pure_pursuit_viz = golf_cart_nav2.pure_pursuit_node_viz:main
+stanley_controller_tf = golf_cart_nav2.stanley_controller_tf:main
+

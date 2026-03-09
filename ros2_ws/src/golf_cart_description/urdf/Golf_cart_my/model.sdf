@@ -1,0 +1,250 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="golf_cart">
+
+    <!-- ================= BASE ================= -->
+    <link name="base_link">
+      <pose>0 0 0.25 0 0 0</pose>
+
+      <inertial>
+        <mass>300</mass>
+        <inertia>
+          <ixx>20</ixx> <iyy>40</iyy> <izz>50</izz>
+          <ixy>0</ixy> <ixz>0</ixz> <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="base_visual">
+        <geometry>
+          <box>
+            <size>3.33 0.82 0.5</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="base_collision">
+        <geometry>
+          <box>
+            <size>3.33 0.82 0.5</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- ================= FRONT LEFT STEERING ================= -->
+    <link name="front_left_steer">
+      <pose>1.44 0.5025 0.25 0 0 0</pose>
+    </link>
+
+    <joint name="front_left_steer_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>front_left_steer</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.6</lower>
+          <upper>0.6</upper>
+          <effort>100</effort>
+          <velocity>1.0</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <link name="front_left_wheel">
+      <pose>0 0 0 0 1.5708 0</pose>
+
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.15</ixx> <iyy>0.15</iyy> <izz>0.1</izz>
+          <ixy>0</ixy> <ixz>0</ixz> <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="fl_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </visual>
+
+      <collision name="fl_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="front_left_wheel_joint" type="revolute">
+      <parent>front_left_steer</parent>
+      <child>front_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+          <effort>200</effort>
+          <velocity>100</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- ================= FRONT RIGHT STEERING ================= -->
+    <link name="front_right_steer">
+      <pose>1.44 -0.5025 0.25 0 0 0</pose>
+    </link>
+
+    <joint name="front_right_steer_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>front_right_steer</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.6</lower>
+          <upper>0.6</upper>
+          <effort>100</effort>
+          <velocity>1.0</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <link name="front_right_wheel">
+      <pose>0 0 0 0 1.5708 0</pose>
+
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.15</ixx> <iyy>0.15</iyy> <izz>0.1</izz>
+          <ixy>0</ixy> <ixz>0</ixz> <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="fr_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </visual>
+
+      <collision name="fr_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="front_right_wheel_joint" type="revolute">
+      <parent>front_right_steer</parent>
+      <child>front_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+          <effort>200</effort>
+          <velocity>100</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- ================= REAR LEFT WHEEL ================= -->
+    <link name="rear_left_wheel">
+      <pose>-0.86 0.5025 0.25 0 1.5708 0</pose>
+
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.15</ixx> <iyy>0.15</iyy> <izz>0.1</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="rl_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </visual>
+
+      <collision name="rl_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="rear_left_wheel_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>rear_left_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+          <effort>300</effort>
+          <velocity>100</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <!-- ================= REAR RIGHT WHEEL ================= -->
+    <link name="rear_right_wheel">
+      <pose>-0.86 -0.5025 0.25 0 1.5708 0</pose>
+
+      <inertial>
+        <mass>10</mass>
+        <inertia>
+          <ixx>0.15</ixx> <iyy>0.15</iyy> <izz>0.1</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="rr_visual">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </visual>
+
+      <collision name="rr_collision">
+        <geometry>
+          <cylinder>
+            <radius>0.2355</radius>
+            <length>0.193</length>
+          </cylinder>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="rear_right_wheel_joint" type="revolute">
+      <parent>base_link</parent>
+      <child>rear_right_wheel</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e16</lower>
+          <upper>1e16</upper>
+          <effort>300</effort>
+          <velocity>100</velocity>
+        </limit>
+      </axis>
+    </joint>
+
+    <static>false</static>
+  </model>
+</sdf>

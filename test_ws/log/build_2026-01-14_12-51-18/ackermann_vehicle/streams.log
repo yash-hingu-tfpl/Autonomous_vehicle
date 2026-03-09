@@ -1,0 +1,30 @@
+[1.600s] Invoking command in '/home/developer/test_ws/build/ackermann_vehicle': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/test_ws/build/ackermann_vehicle/build --no-deps symlink_data
+[2.338s] running develop
+[2.816s] running egg_info
+[2.816s] creating ackermann_vehicle.egg-info
+[2.816s] writing ackermann_vehicle.egg-info/PKG-INFO
+[2.817s] writing dependency_links to ackermann_vehicle.egg-info/dependency_links.txt
+[2.818s] writing entry points to ackermann_vehicle.egg-info/entry_points.txt
+[2.818s] writing requirements to ackermann_vehicle.egg-info/requires.txt
+[2.819s] writing top-level names to ackermann_vehicle.egg-info/top_level.txt
+[2.821s] writing manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+[2.822s] reading manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+[2.828s] writing manifest file 'ackermann_vehicle.egg-info/SOURCES.txt'
+[2.832s] running build_ext
+[2.833s] Creating /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann-vehicle.egg-link (link to .)
+[2.836s] 
+[2.837s] Installed /home/developer/test_ws/build/ackermann_vehicle
+[2.838s] running symlink_data
+[2.838s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ament_index
+[2.839s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ament_index/resource_index
+[2.839s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ament_index/resource_index/packages
+[2.839s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/resource/ackermann_vehicle -> /home/developer/test_ws/install/ackermann_vehicle/share/ament_index/resource_index/packages
+[2.840s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/package.xml -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle
+[2.840s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/launch
+[2.841s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/launch/rsp_launch.py -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/launch
+[2.841s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description
+[2.842s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/description/ackermann_robot.urdf.xacro -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description
+[2.842s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/description/ackermann_control.xacro -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description
+[2.843s] creating /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/config
+[2.843s] symbolically linking /home/developer/test_ws/build/ackermann_vehicle/config/ackermann_controller.yaml -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/config
+[2.914s] Invoked command in '/home/developer/test_ws/build/ackermann_vehicle' returned '0': PYTHONPATH=/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/developer/test_ws/build/ackermann_vehicle/build --no-deps symlink_data

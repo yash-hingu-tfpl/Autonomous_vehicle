@@ -1,0 +1,83 @@
+running egg_info
+creating ../../build/golf_cart_nav2/golf_cart_nav2.egg-info
+writing ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/PKG-INFO
+writing dependency_links to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/dependency_links.txt
+writing entry points to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/entry_points.txt
+writing requirements to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/requires.txt
+writing top-level names to ../../build/golf_cart_nav2/golf_cart_nav2.egg-info/top_level.txt
+writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+reading manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+writing manifest file '../../build/golf_cart_nav2/golf_cart_nav2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/developer/ros2_ws/build/golf_cart_nav2/build
+creating /home/developer/ros2_ws/build/golf_cart_nav2/build/lib
+creating /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/convert_poses_to_path.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/nav2_to_ackermann.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/path_follower.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/path_publisher.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/pure_pursuit_tf.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/pure_pursuit_node_viz.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/pure_pursuit_speed.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/stanley_with_filter.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/pure_pursuit_node.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/__init__.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/follow_path.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+copying golf_cart_nav2/pure_pursuit_local.py -> /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2
+running install
+running install_lib
+creating /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/convert_poses_to_path.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/stanley_controller_tf.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/nav2_to_ackermann.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/path_follower.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/path_publisher.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_tf.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_node_viz.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_speed.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/stanley_with_filter.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_node.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/__init__.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/follow_path.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+copying /home/developer/ros2_ws/build/golf_cart_nav2/build/lib/golf_cart_nav2/pure_pursuit_local.py -> /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/convert_poses_to_path.py to convert_poses_to_path.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/stanley_controller_tf.py to stanley_controller_tf.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/nav2_to_ackermann.py to nav2_to_ackermann.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/path_follower.py to path_follower.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/path_publisher.py to path_publisher.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_tf.py to pure_pursuit_tf.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_node_viz.py to pure_pursuit_node_viz.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_speed.py to pure_pursuit_speed.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/stanley_with_filter.py to stanley_with_filter.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_node.py to pure_pursuit_node.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/follow_path.py to follow_path.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2/pure_pursuit_local.py to pure_pursuit_local.cpython-310.pyc
+running install_data
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index/packages
+copying resource/golf_cart_nav2 -> /home/developer/ros2_ws/install/golf_cart_nav2/share/ament_index/resource_index/packages
+copying package.xml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/launch
+copying launch/depth_to_scan.launch.py -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/launch
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+copying config/nav2_params.yaml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+copying config/nav2_params_new.yaml -> /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/config
+creating /home/developer/ros2_ws/install/golf_cart_nav2/share/golf_cart_nav2/maps
+running install_egg_info
+Copying ../../build/golf_cart_nav2/golf_cart_nav2.egg-info to /home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages/golf_cart_nav2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_path script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing nav2_to_ackermann script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing path_follower script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing path_publisher script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing pure_pursuit_local script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing pure_pursuit_speed script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing pure_pursuit_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing pure_pursuit_viz script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing stanley_controller_tf script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+Installing stanley_with_filter script to /home/developer/ros2_ws/install/golf_cart_nav2/lib/golf_cart_nav2
+writing list of installed files to '/home/developer/ros2_ws/build/golf_cart_nav2/install.log'

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (-) JobUnselected: {'identifier': 'custom_nitros_dnn_image_encoder'}
+[0.000697] (-) JobUnselected: {'identifier': 'custom_nitros_image'}
+[0.000788] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter'}
+[0.000843] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter_interfaces'}
+[0.000894] (-) JobUnselected: {'identifier': 'custom_nitros_string'}
+[0.001409] (-) JobUnselected: {'identifier': 'gxf_isaac_argus'}
+[0.001502] (-) JobUnselected: {'identifier': 'gxf_isaac_atlas'}
+[0.001555] (-) JobUnselected: {'identifier': 'gxf_isaac_camera_utils'}
+[0.001619] (-) JobUnselected: {'identifier': 'gxf_isaac_cuda'}
+[0.001715] (-) JobUnselected: {'identifier': 'gxf_isaac_flatscan_localization'}
+[0.001772] (-) JobUnselected: {'identifier': 'gxf_isaac_gems'}
+[0.001818] (-) JobUnselected: {'identifier': 'gxf_isaac_gxf_helpers'}
+[0.002070] (-) JobUnselected: {'identifier': 'gxf_isaac_hesai'}
+[0.002115] (-) JobUnselected: {'identifier': 'gxf_isaac_localization'}
+[0.002259] (-) JobUnselected: {'identifier': 'gxf_isaac_message_compositor'}
+[0.002301] (-) JobUnselected: {'identifier': 'gxf_isaac_messages'}
+[0.002370] (-) JobUnselected: {'identifier': 'gxf_isaac_messages_throttler'}
+[0.002413] (-) JobUnselected: {'identifier': 'gxf_isaac_optimizer'}
+[0.002459] (-) JobUnselected: {'identifier': 'gxf_isaac_point_cloud'}
+[0.002503] (-) JobUnselected: {'identifier': 'gxf_isaac_range_scan_processing'}
+[0.002562] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_cuda'}
+[0.002619] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_messages'}
+[0.002674] (-) JobUnselected: {'identifier': 'gxf_isaac_segway'}
+[0.002724] (-) JobUnselected: {'identifier': 'gxf_isaac_sight'}
+[0.003055] (-) JobUnselected: {'identifier': 'gxf_isaac_timestamp_correlator'}
+[0.003097] (-) JobUnselected: {'identifier': 'gxf_isaac_utils'}
+[0.003179] (-) JobUnselected: {'identifier': 'isaac_common'}
+[0.003224] (-) JobUnselected: {'identifier': 'isaac_common_py'}
+[0.003300] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.003343] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.003418] (-) JobUnselected: {'identifier': 'isaac_ros_gxf'}
+[0.003460] (-) JobUnselected: {'identifier': 'isaac_ros_launch_utils'}
+[0.003607] (-) JobUnselected: {'identifier': 'isaac_ros_managed_nitros'}
+[0.003727] (-) JobUnselected: {'identifier': 'isaac_ros_nitros'}
+[0.003821] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_battery_state_type'}
+[0.003869] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_interfaces'}
+[0.004008] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_ros2'}
+[0.004050] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_camera_info_type'}
+[0.004095] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_image_type'}
+[0.004160] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_video_type'}
+[0.004298] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_correlated_timestamp_type'}
+[0.004339] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection2_d_array_type'}
+[0.004438] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection3_d_array_type'}
+[0.004481] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_disparity_image_type'}
+[0.004523] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_encoder_ticks_type'}
+[0.004568] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_flat_scan_type'}
+[0.004609] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_image_type'}
+[0.004659] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_imu_type'}
+[0.004707] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_occupancy_grid_type'}
+[0.004753] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_odometry_type'}
+[0.004853] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_point_cloud_type'}
+[0.004894] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_array_type'}
+[0.005021] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_cov_stamped_type'}
+[0.005062] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_std_msg_type'}
+[0.005103] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_tensor_list_type'}
+[0.005165] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_topic_tools'}
+[0.005211] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_twist_type'}
+[0.005257] (-) JobUnselected: {'identifier': 'isaac_ros_nova_interfaces'}
+[0.005945] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.006067] (-) JobUnselected: {'identifier': 'isaac_ros_pynitros'}
+[0.006215] (-) JobUnselected: {'identifier': 'isaac_ros_r2b_galileo'}
+[0.006311] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.006390] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.006471] (-) JobUnselected: {'identifier': 'isaac_ros_test_cmake'}
+[0.006516] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam'}
+[0.006558] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam_interfaces'}
+[0.006605] (ackermann_vehicle) JobQueued: {'identifier': 'ackermann_vehicle', 'dependencies': OrderedDict()}
+[0.006663] (ackermann_vehicle) JobStarted: {'identifier': 'ackermann_vehicle'}
+[0.098302] (-) TimerEvent: {}
+[0.198732] (-) TimerEvent: {}
+[0.299188] (-) TimerEvent: {}
+[0.401758] (-) TimerEvent: {}
+[0.502247] (-) TimerEvent: {}
+[0.602703] (-) TimerEvent: {}
+[0.703852] (-) TimerEvent: {}
+[0.804386] (-) TimerEvent: {}
+[0.905228] (-) TimerEvent: {}
+[1.005574] (-) TimerEvent: {}
+[1.106002] (-) TimerEvent: {}
+[1.206402] (-) TimerEvent: {}
+[1.306726] (-) TimerEvent: {}
+[1.340123] (ackermann_vehicle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ackermann_vehicle', 'build', '--build-base', '/home/developer/test_ws/build/ackermann_vehicle/build', 'install', '--record', '/home/developer/test_ws/build/ackermann_vehicle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/developer/test_ws/src/ackermann_vehicle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'developer', 'SSH_CLIENT': '192.168.31.185 51653 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'PLATFORMIO_PYTHON_CMD': '/home/developer/.platformio/penv/bin/python', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'BROWSER': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/developer', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e8b2f947-a509-4df4-8cbb-ac17d9609d2a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/developer/test_ws/install:/home/developer/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'developer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/developer/.local/bin:/home/developer/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/developer/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/home/developer/.local/bin:/home/developer/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-19e00a1421.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/developer/test_ws/install/ackermann_vehicle:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_EXECUTABLE': 'gazebo-11.10.2', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/developer/test_ws/build/ackermann_vehicle', 'TURTLEBOT3_MODEL': 'waffle', 'SSH_CONNECTION': '192.168.31.185 51653 192.168.31.48 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[1.406837] (-) TimerEvent: {}
+[1.507302] (-) TimerEvent: {}
+[1.607780] (-) TimerEvent: {}
+[1.708210] (-) TimerEvent: {}
+[1.808585] (-) TimerEvent: {}
+[1.911129] (-) TimerEvent: {}
+[1.914255] (ackermann_vehicle) StdoutLine: {'line': b'running egg_info\n'}
+[1.916074] (ackermann_vehicle) StdoutLine: {'line': b'writing ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/PKG-INFO\n'}
+[1.916828] (ackermann_vehicle) StdoutLine: {'line': b'writing dependency_links to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/dependency_links.txt\n'}
+[1.918291] (ackermann_vehicle) StdoutLine: {'line': b'writing entry points to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/entry_points.txt\n'}
+[1.918784] (ackermann_vehicle) StdoutLine: {'line': b'writing requirements to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/requires.txt\n'}
+[1.919416] (ackermann_vehicle) StdoutLine: {'line': b'writing top-level names to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/top_level.txt\n'}
+[1.921482] (ackermann_vehicle) StdoutLine: {'line': b"reading manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[1.922987] (ackermann_vehicle) StdoutLine: {'line': b"writing manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[1.923625] (ackermann_vehicle) StdoutLine: {'line': b'running build\n'}
+[1.923889] (ackermann_vehicle) StdoutLine: {'line': b'running build_py\n'}
+[1.924089] (ackermann_vehicle) StdoutLine: {'line': b'running install\n'}
+[1.924489] (ackermann_vehicle) StdoutLine: {'line': b'running install_lib\n'}
+[1.926148] (ackermann_vehicle) StdoutLine: {'line': b'running install_data\n'}
+[1.926875] (ackermann_vehicle) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.929931] (ackermann_vehicle) StdoutLine: {'line': b"removing '/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.931722] (ackermann_vehicle) StdoutLine: {'line': b'Copying ../../build/ackermann_vehicle/ackermann_vehicle.egg-info to /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info\n'}
+[1.932194] (ackermann_vehicle) StdoutLine: {'line': b'running install_scripts\n'}
+[1.969409] (ackermann_vehicle) StdoutLine: {'line': b"writing list of installed files to '/home/developer/test_ws/build/ackermann_vehicle/install.log'\n"}
+[2.011418] (-) TimerEvent: {}
+[2.023408] (ackermann_vehicle) CommandEnded: {'returncode': 0}
+[2.042450] (ackermann_vehicle) JobEnded: {'identifier': 'ackermann_vehicle', 'rc': 0}
+[2.043761] (-) EventReactorShutdown: {}

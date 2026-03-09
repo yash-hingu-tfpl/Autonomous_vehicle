@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (-) JobUnselected: {'identifier': 'custom_nitros_dnn_image_encoder'}
+[0.003141] (-) JobUnselected: {'identifier': 'custom_nitros_image'}
+[0.003210] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter'}
+[0.003252] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter_interfaces'}
+[0.003306] (-) JobUnselected: {'identifier': 'custom_nitros_string'}
+[0.003356] (-) JobUnselected: {'identifier': 'gxf_isaac_argus'}
+[0.003395] (-) JobUnselected: {'identifier': 'gxf_isaac_atlas'}
+[0.003433] (-) JobUnselected: {'identifier': 'gxf_isaac_camera_utils'}
+[0.003472] (-) JobUnselected: {'identifier': 'gxf_isaac_cuda'}
+[0.003510] (-) JobUnselected: {'identifier': 'gxf_isaac_flatscan_localization'}
+[0.003549] (-) JobUnselected: {'identifier': 'gxf_isaac_gems'}
+[0.003587] (-) JobUnselected: {'identifier': 'gxf_isaac_gxf_helpers'}
+[0.003624] (-) JobUnselected: {'identifier': 'gxf_isaac_hesai'}
+[0.003663] (-) JobUnselected: {'identifier': 'gxf_isaac_localization'}
+[0.003701] (-) JobUnselected: {'identifier': 'gxf_isaac_message_compositor'}
+[0.003739] (-) JobUnselected: {'identifier': 'gxf_isaac_messages'}
+[0.003777] (-) JobUnselected: {'identifier': 'gxf_isaac_messages_throttler'}
+[0.003815] (-) JobUnselected: {'identifier': 'gxf_isaac_optimizer'}
+[0.003853] (-) JobUnselected: {'identifier': 'gxf_isaac_point_cloud'}
+[0.003893] (-) JobUnselected: {'identifier': 'gxf_isaac_range_scan_processing'}
+[0.003931] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_cuda'}
+[0.003969] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_messages'}
+[0.004007] (-) JobUnselected: {'identifier': 'gxf_isaac_segway'}
+[0.004046] (-) JobUnselected: {'identifier': 'gxf_isaac_sight'}
+[0.004084] (-) JobUnselected: {'identifier': 'gxf_isaac_timestamp_correlator'}
+[0.004122] (-) JobUnselected: {'identifier': 'gxf_isaac_utils'}
+[0.004161] (-) JobUnselected: {'identifier': 'isaac_common'}
+[0.004199] (-) JobUnselected: {'identifier': 'isaac_common_py'}
+[0.004237] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.004275] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.004327] (-) JobUnselected: {'identifier': 'isaac_ros_gxf'}
+[0.004366] (-) JobUnselected: {'identifier': 'isaac_ros_launch_utils'}
+[0.004404] (-) JobUnselected: {'identifier': 'isaac_ros_managed_nitros'}
+[0.004442] (-) JobUnselected: {'identifier': 'isaac_ros_nitros'}
+[0.004480] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_battery_state_type'}
+[0.004518] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_interfaces'}
+[0.004556] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_ros2'}
+[0.004594] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_camera_info_type'}
+[0.004633] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_image_type'}
+[0.004671] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_video_type'}
+[0.004709] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_correlated_timestamp_type'}
+[0.004748] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection2_d_array_type'}
+[0.004786] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection3_d_array_type'}
+[0.004824] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_disparity_image_type'}
+[0.004862] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_encoder_ticks_type'}
+[0.004900] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_flat_scan_type'}
+[0.004939] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_image_type'}
+[0.004977] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_imu_type'}
+[0.005015] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_occupancy_grid_type'}
+[0.005053] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_odometry_type'}
+[0.005091] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_point_cloud_type'}
+[0.005130] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_array_type'}
+[0.005167] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_cov_stamped_type'}
+[0.005205] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_std_msg_type'}
+[0.005243] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_tensor_list_type'}
+[0.005308] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_topic_tools'}
+[0.005352] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_twist_type'}
+[0.005391] (-) JobUnselected: {'identifier': 'isaac_ros_nova_interfaces'}
+[0.005429] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.005468] (-) JobUnselected: {'identifier': 'isaac_ros_pynitros'}
+[0.005961] (-) JobUnselected: {'identifier': 'isaac_ros_r2b_galileo'}
+[0.010453] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.010517] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.010560] (-) JobUnselected: {'identifier': 'isaac_ros_test_cmake'}
+[0.010601] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam'}
+[0.010641] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam_interfaces'}
+[0.010685] (ackermann_vehicle) JobQueued: {'identifier': 'ackermann_vehicle', 'dependencies': OrderedDict()}
+[0.010731] (ackermann_vehicle) JobStarted: {'identifier': 'ackermann_vehicle'}
+[0.099210] (-) TimerEvent: {}
+[0.203347] (-) TimerEvent: {}
+[0.303706] (-) TimerEvent: {}
+[0.404071] (-) TimerEvent: {}
+[0.504466] (-) TimerEvent: {}
+[0.607133] (-) TimerEvent: {}
+[0.707565] (-) TimerEvent: {}
+[0.809420] (-) TimerEvent: {}
+[0.912155] (-) TimerEvent: {}
+[1.012553] (-) TimerEvent: {}
+[1.113804] (-) TimerEvent: {}
+[1.216073] (-) TimerEvent: {}
+[1.316458] (-) TimerEvent: {}
+[1.418706] (-) TimerEvent: {}
+[1.519241] (-) TimerEvent: {}
+[1.623346] (-) TimerEvent: {}
+[1.723710] (-) TimerEvent: {}
+[1.824105] (-) TimerEvent: {}
+[1.924492] (-) TimerEvent: {}
+[2.024908] (-) TimerEvent: {}
+[2.065836] (ackermann_vehicle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ackermann_vehicle', 'build', '--build-base', '/home/developer/test_ws/build/ackermann_vehicle/build', 'install', '--record', '/home/developer/test_ws/build/ackermann_vehicle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/developer/test_ws/src/ackermann_vehicle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'developer', 'SSH_CLIENT': '192.168.31.185 51653 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass.sh', 'PLATFORMIO_PYTHON_CMD': '/home/developer/.platformio/penv/bin/python', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/developer/ros2_ws/install/realsense2_camera/lib:/home/developer/ros2_ws/install/realsense2_camera_msgs/lib:/home/developer/ros2_ws/install/esp32_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'BROWSER': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/developer', 'OLDPWD': '/home/developer', 'TERM_PROGRAM_VERSION': '1.108.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b8ffa1ea-f53a-43aa-aaf8-5a5dc2cc7be7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/developer/test_ws/install:/home/developer/turtlebot3_ws/install:/home/developer/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'developer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/developer/.local/bin:/home/developer/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/developer/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/developer/.vscode-server/cli/servers/Stable-c9d77990917f3102ada88be140d28b038d1dd7c7/server/bin/remote-cli:/home/developer/.local/bin:/home/developer/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-19e00a1421.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/developer/test_ws/install/ackermann_vehicle:/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_nav2:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_EXECUTABLE': 'gazebo-11.10.2', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/developer/test_ws/build/ackermann_vehicle', 'TURTLEBOT3_MODEL': 'waffle', 'SSH_CONNECTION': '192.168.31.185 51653 192.168.31.48 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:/home/developer/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[2.125013] (-) TimerEvent: {}
+[2.225348] (-) TimerEvent: {}
+[2.328342] (-) TimerEvent: {}
+[2.428713] (-) TimerEvent: {}
+[2.530395] (-) TimerEvent: {}
+[2.630842] (-) TimerEvent: {}
+[2.731269] (-) TimerEvent: {}
+[2.831714] (-) TimerEvent: {}
+[2.845563] (ackermann_vehicle) StdoutLine: {'line': b'running egg_info\n'}
+[2.847662] (ackermann_vehicle) StdoutLine: {'line': b'writing ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/PKG-INFO\n'}
+[2.848540] (ackermann_vehicle) StdoutLine: {'line': b'writing dependency_links to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/dependency_links.txt\n'}
+[2.849242] (ackermann_vehicle) StdoutLine: {'line': b'writing entry points to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/entry_points.txt\n'}
+[2.849926] (ackermann_vehicle) StdoutLine: {'line': b'writing requirements to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/requires.txt\n'}
+[2.850436] (ackermann_vehicle) StdoutLine: {'line': b'writing top-level names to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/top_level.txt\n'}
+[2.860313] (ackermann_vehicle) StdoutLine: {'line': b"reading manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[2.864008] (ackermann_vehicle) StdoutLine: {'line': b"writing manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[2.864679] (ackermann_vehicle) StdoutLine: {'line': b'running build\n'}
+[2.864965] (ackermann_vehicle) StdoutLine: {'line': b'running build_py\n'}
+[2.869420] (ackermann_vehicle) StdoutLine: {'line': b'running install\n'}
+[2.869693] (ackermann_vehicle) StdoutLine: {'line': b'running install_lib\n'}
+[2.871802] (ackermann_vehicle) StdoutLine: {'line': b'running install_data\n'}
+[2.873399] (ackermann_vehicle) StdoutLine: {'line': b'copying description/fake_cart.xacro -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description\n'}
+[2.875422] (ackermann_vehicle) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.887314] (ackermann_vehicle) StdoutLine: {'line': b"removing '/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.891779] (ackermann_vehicle) StdoutLine: {'line': b'Copying ../../build/ackermann_vehicle/ackermann_vehicle.egg-info to /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info\n'}
+[2.897809] (ackermann_vehicle) StdoutLine: {'line': b'running install_scripts\n'}
+[2.931824] (-) TimerEvent: {}
+[2.973345] (ackermann_vehicle) StdoutLine: {'line': b"writing list of installed files to '/home/developer/test_ws/build/ackermann_vehicle/install.log'\n"}
+[3.028949] (ackermann_vehicle) CommandEnded: {'returncode': 0}
+[3.031935] (-) TimerEvent: {}
+[3.054399] (ackermann_vehicle) JobEnded: {'identifier': 'ackermann_vehicle', 'rc': 0}
+[3.055844] (-) EventReactorShutdown: {}

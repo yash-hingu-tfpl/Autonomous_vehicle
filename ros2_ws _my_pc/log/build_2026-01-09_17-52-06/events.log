@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.000799] (-) JobUnselected: {'identifier': 'golf_cart_description'}
+[0.001221] (-) JobUnselected: {'identifier': 'golf_cart_nav2'}
+[0.001269] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001306] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001352] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001440] (esp32_hardware) JobQueued: {'identifier': 'esp32_hardware', 'dependencies': OrderedDict()}
+[0.001478] (esp32_hardware) JobStarted: {'identifier': 'esp32_hardware'}
+[0.019593] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'cmake'}
+[0.022877] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'build'}
+[0.022982] (esp32_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/ros2_ws/build/esp32_hardware', '--', '-j4', '-l4'], 'cwd': '/home/developer/ros2_ws/build/esp32_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/developer/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/217/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/developer/ros2_ws/install/esp32_hardware/lib:/home/developer/ros2_ws/install/realsense2_camera/lib:/home/developer/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/developer/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/217/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/developer/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/217/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/217/usr/share/code/code'), ('MANAGERPID', '1642'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1814'), ('BUNDLED_DEBUGPY_PATH', '/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23310'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/ros2_ws/install:/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:12236'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1775,unix/developer:/tmp/.ICE-unix/1775'), ('GTK_EXE_PREFIX', '/snap/code/217/usr'), ('INVOCATION_ID', '3e0e28e6b13f46eea9948eaf9a8e18bd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/217/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-250bdd96e278cf46.txt'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/developer/.config/Code/User/workspaceStorage/f9ff4d227ea04646c58bb8c1cce3462b/ms-python.python/pythonrc.py'), ('IBUS_DISABLE_SNOOPER', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/developer/snap/code/217/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6937I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f61ac4df.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/developer/snap/code/217/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/developer/ros2_ws/install/esp32_hardware:/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_nav2:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:66518665-844c-4edd-ae4e-9f6949dd0965'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/esp32_hardware'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/developer/snap/code/217/.local/share:/home/developer/snap/code/217:/snap/code/217/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/developer/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/ros2_ws/install/esp32_hardware:/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble')]), 'shell': False}
+[0.082213] (esp32_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099610] (-) TimerEvent: {}
+[0.201673] (-) TimerEvent: {}
+[0.302069] (-) TimerEvent: {}
+[0.403052] (-) TimerEvent: {}
+[0.474556] (esp32_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.503190] (-) TimerEvent: {}
+[0.587068] (esp32_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.592370] (esp32_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.603376] (-) TimerEvent: {}
+[0.606712] (esp32_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.650075] (esp32_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.685627] (esp32_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.703528] (-) TimerEvent: {}
+[0.772865] (esp32_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.777197] (esp32_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.803668] (-) TimerEvent: {}
+[0.904140] (-) TimerEvent: {}
+[0.999978] (esp32_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.004250] (-) TimerEvent: {}
+[1.104669] (-) TimerEvent: {}
+[1.122832] (esp32_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[1.204803] (-) TimerEvent: {}
+[1.305150] (-) TimerEvent: {}
+[1.405519] (-) TimerEvent: {}
+[1.505871] (-) TimerEvent: {}
+[1.564211] (esp32_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.586165] (esp32_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[1.593082] (esp32_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/developer/ros2_ws/build/esp32_hardware\n'}
+[1.605999] (-) TimerEvent: {}
+[1.652119] (esp32_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esp32_hardware\x1b[0m\n'}
+[1.678267] (esp32_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o\x1b[0m\n'}
+[1.706119] (-) TimerEvent: {}
+[1.806486] (-) TimerEvent: {}
+[1.906838] (-) TimerEvent: {}
+[2.007202] (-) TimerEvent: {}
+[2.107541] (-) TimerEvent: {}
+[2.207889] (-) TimerEvent: {}
+[2.308226] (-) TimerEvent: {}
+[2.408808] (-) TimerEvent: {}
+[2.509192] (-) TimerEvent: {}
+[2.609547] (-) TimerEvent: {}
+[2.709885] (-) TimerEvent: {}
+[2.810224] (-) TimerEvent: {}
+[2.910577] (-) TimerEvent: {}
+[3.010920] (-) TimerEvent: {}
+[3.111257] (-) TimerEvent: {}
+[3.211609] (-) TimerEvent: {}
+[3.311963] (-) TimerEvent: {}
+[3.412308] (-) TimerEvent: {}
+[3.512636] (-) TimerEvent: {}
+[3.612973] (-) TimerEvent: {}
+[3.713372] (-) TimerEvent: {}
+[3.813721] (-) TimerEvent: {}
+[3.914038] (-) TimerEvent: {}
+[4.014401] (-) TimerEvent: {}
+[4.114845] (-) TimerEvent: {}
+[4.215178] (-) TimerEvent: {}
+[4.315497] (-) TimerEvent: {}
+[4.415815] (-) TimerEvent: {}
+[4.516193] (-) TimerEvent: {}
+[4.616507] (-) TimerEvent: {}
+[4.716811] (-) TimerEvent: {}
+[4.817128] (-) TimerEvent: {}
+[4.917455] (-) TimerEvent: {}
+[5.017771] (-) TimerEvent: {}
+[5.118088] (-) TimerEvent: {}
+[5.218422] (-) TimerEvent: {}
+[5.318781] (-) TimerEvent: {}
+[5.419114] (-) TimerEvent: {}
+[5.519493] (-) TimerEvent: {}
+[5.619872] (-) TimerEvent: {}
+[5.720246] (-) TimerEvent: {}
+[5.820641] (-) TimerEvent: {}
+[5.920977] (-) TimerEvent: {}
+[6.021305] (-) TimerEvent: {}
+[6.121648] (-) TimerEvent: {}
+[6.221982] (-) TimerEvent: {}
+[6.322353] (-) TimerEvent: {}
+[6.422667] (-) TimerEvent: {}
+[6.522984] (-) TimerEvent: {}
+[6.623337] (-) TimerEvent: {}
+[6.723658] (-) TimerEvent: {}
+[6.823993] (-) TimerEvent: {}
+[6.924313] (-) TimerEvent: {}
+[7.024641] (-) TimerEvent: {}
+[7.124950] (-) TimerEvent: {}
+[7.225341] (-) TimerEvent: {}
+[7.325658] (-) TimerEvent: {}
+[7.425987] (-) TimerEvent: {}
+[7.526314] (-) TimerEvent: {}
+[7.626654] (-) TimerEvent: {}
+[7.727008] (-) TimerEvent: {}
+[7.827359] (-) TimerEvent: {}
+[7.927697] (-) TimerEvent: {}
+[8.028026] (-) TimerEvent: {}
+[8.128364] (-) TimerEvent: {}
+[8.228696] (-) TimerEvent: {}
+[8.329032] (-) TimerEvent: {}
+[8.429399] (-) TimerEvent: {}
+[8.529721] (-) TimerEvent: {}
+[8.630046] (-) TimerEvent: {}
+[8.730393] (-) TimerEvent: {}
+[8.830779] (-) TimerEvent: {}
+[8.931163] (-) TimerEvent: {}
+[9.031606] (-) TimerEvent: {}
+[9.132047] (-) TimerEvent: {}
+[9.232412] (-) TimerEvent: {}
+[9.332741] (-) TimerEvent: {}
+[9.433049] (-) TimerEvent: {}
+[9.533379] (-) TimerEvent: {}
+[9.633717] (-) TimerEvent: {}
+[9.734030] (-) TimerEvent: {}
+[9.834355] (-) TimerEvent: {}
+[9.934660] (-) TimerEvent: {}
+[10.035034] (-) TimerEvent: {}
+[10.135383] (-) TimerEvent: {}
+[10.235708] (-) TimerEvent: {}
+[10.336046] (-) TimerEvent: {}
+[10.436385] (-) TimerEvent: {}
+[10.539436] (-) TimerEvent: {}
+[10.639917] (-) TimerEvent: {}
+[10.740386] (-) TimerEvent: {}
+[10.840759] (-) TimerEvent: {}
+[10.941135] (-) TimerEvent: {}
+[11.041519] (-) TimerEvent: {}
+[11.141882] (-) TimerEvent: {}
+[11.242267] (-) TimerEvent: {}
+[11.342657] (-) TimerEvent: {}
+[11.442991] (-) TimerEvent: {}
+[11.543378] (-) TimerEvent: {}
+[11.643716] (-) TimerEvent: {}
+[11.744084] (-) TimerEvent: {}
+[11.844422] (-) TimerEvent: {}
+[11.944797] (-) TimerEvent: {}
+[12.045167] (-) TimerEvent: {}
+[12.145565] (-) TimerEvent: {}
+[12.245935] (-) TimerEvent: {}
+[12.346360] (-) TimerEvent: {}
+[12.446893] (-) TimerEvent: {}
+[12.547307] (-) TimerEvent: {}
+[12.647757] (-) TimerEvent: {}
+[12.748171] (-) TimerEvent: {}
+[12.848637] (-) TimerEvent: {}
+[12.949033] (-) TimerEvent: {}
+[13.049410] (-) TimerEvent: {}
+[13.149821] (-) TimerEvent: {}
+[13.250233] (-) TimerEvent: {}
+[13.350701] (-) TimerEvent: {}
+[13.451118] (-) TimerEvent: {}
+[13.551666] (-) TimerEvent: {}
+[13.652132] (-) TimerEvent: {}
+[13.752556] (-) TimerEvent: {}
+[13.852974] (-) TimerEvent: {}
+[13.953420] (-) TimerEvent: {}
+[14.053829] (-) TimerEvent: {}
+[14.154243] (-) TimerEvent: {}
+[14.254705] (-) TimerEvent: {}
+[14.355115] (-) TimerEvent: {}
+[14.455516] (-) TimerEvent: {}
+[14.555877] (-) TimerEvent: {}
+[14.656237] (-) TimerEvent: {}
+[14.756597] (-) TimerEvent: {}
+[14.856952] (-) TimerEvent: {}
+[14.957306] (-) TimerEvent: {}
+[15.057686] (-) TimerEvent: {}
+[15.158188] (-) TimerEvent: {}
+[15.258580] (-) TimerEvent: {}
+[15.358953] (-) TimerEvent: {}
+[15.459306] (-) TimerEvent: {}
+[15.559677] (-) TimerEvent: {}
+[15.660010] (-) TimerEvent: {}
+[15.760382] (-) TimerEvent: {}
+[15.860747] (-) TimerEvent: {}
+[15.961094] (-) TimerEvent: {}
+[16.061424] (-) TimerEvent: {}
+[16.161739] (-) TimerEvent: {}
+[16.262052] (-) TimerEvent: {}
+[16.362349] (-) TimerEvent: {}
+[16.462646] (-) TimerEvent: {}
+[16.562962] (-) TimerEvent: {}
+[16.663302] (-) TimerEvent: {}
+[16.763649] (-) TimerEvent: {}
+[16.860457] (esp32_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libesp32_hardware.so\x1b[0m\n'}
+[16.863765] (-) TimerEvent: {}
+[16.964140] (-) TimerEvent: {}
+[17.064561] (-) TimerEvent: {}
+[17.164906] (-) TimerEvent: {}
+[17.265395] (-) TimerEvent: {}
+[17.365861] (-) TimerEvent: {}
+[17.466182] (-) TimerEvent: {}
+[17.566559] (-) TimerEvent: {}
+[17.666882] (-) TimerEvent: {}
+[17.758473] (esp32_hardware) StdoutLine: {'line': b'[100%] Built target esp32_hardware\n'}
+[17.767013] (-) TimerEvent: {}
+[17.774095] (esp32_hardware) CommandEnded: {'returncode': 0}
+[17.775414] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'install'}
+[17.793976] (esp32_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/ros2_ws/build/esp32_hardware'], 'cwd': '/home/developer/ros2_ws/build/esp32_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/developer/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/217/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/developer/ros2_ws/install/esp32_hardware/lib:/home/developer/ros2_ws/install/realsense2_camera/lib:/home/developer/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/developer/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.107.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/217/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/developer/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/217/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/217/usr/share/code/code'), ('MANAGERPID', '1642'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1814'), ('BUNDLED_DEBUGPY_PATH', '/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23310'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/ros2_ws/install:/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:12236'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1775,unix/developer:/tmp/.ICE-unix/1775'), ('GTK_EXE_PREFIX', '/snap/code/217/usr'), ('INVOCATION_ID', '3e0e28e6b13f46eea9948eaf9a8e18bd'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/217/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/developer/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-250bdd96e278cf46.txt'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/developer/.config/Code/User/workspaceStorage/f9ff4d227ea04646c58bb8c1cce3462b/ms-python.python/pythonrc.py'), ('IBUS_DISABLE_SNOOPER', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/developer/snap/code/217/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.6937I3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7f61ac4df.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/developer/snap/code/217/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/developer/ros2_ws/install/esp32_hardware:/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_nav2:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:66518665-844c-4edd-ae4e-9f6949dd0965'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/esp32_hardware'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/developer/snap/code/217/.local/share:/home/developer/snap/code/217:/snap/code/217/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/developer/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/ros2_ws/install/esp32_hardware:/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble')]), 'shell': False}
+[17.812889] (esp32_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.813402] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/esp32_hardware.xml\n'}
+[17.813963] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/lib/libesp32_hardware.so\n'}
+[17.822690] (esp32_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/developer/ros2_ws/install/esp32_hardware/lib/libesp32_hardware.so" to ""\n'}
+[17.823020] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include\n'}
+[17.823153] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/esp32_hardware\n'}
+[17.823271] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/esp32_hardware/esp32_hardware.hpp\n'}
+[17.823487] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/esp32_hardware.xml\n'}
+[17.823581] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/package_run_dependencies/esp32_hardware\n'}
+[17.823674] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/parent_prefix_path/esp32_hardware\n'}
+[17.823822] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/ament_prefix_path.sh\n'}
+[17.823986] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/ament_prefix_path.dsv\n'}
+[17.824228] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/path.sh\n'}
+[17.824604] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/path.dsv\n'}
+[17.824821] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.bash\n'}
+[17.824987] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.sh\n'}
+[17.825211] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.zsh\n'}
+[17.825395] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.dsv\n'}
+[17.825570] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/package.dsv\n'}
+[17.825665] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/packages/esp32_hardware\n'}
+[17.825815] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/esp32_hardware\n'}
+[17.826034] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/cmake/esp32_hardwareConfig.cmake\n'}
+[17.826130] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/cmake/esp32_hardwareConfig-version.cmake\n'}
+[17.826214] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/package.xml\n'}
+[17.828006] (esp32_hardware) CommandEnded: {'returncode': 0}
+[17.859299] (esp32_hardware) JobEnded: {'identifier': 'esp32_hardware', 'rc': 0}
+[17.860254] (-) EventReactorShutdown: {}

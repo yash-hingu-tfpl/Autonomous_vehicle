@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="golf_cart">
+
+  <!-- ================================================= -->
+  <!-- Parameters -->
+  <!-- ================================================= -->
+  <xacro:property name="wheel_radius" value="0.2355"/>
+  <xacro:property name="wheel_width"  value="0.19304"/>
+  <xacro:property name="wheelbase"     value="2.30"/>
+  <xacro:property name="track_width"   value="1.005"/>
+
+  <!-- ================================================= -->
+  <!-- Root (Nav2 / KDL safe) -->
+  <!-- ================================================= -->
+  <link name="base_footprint"/>
+
+  <!-- ================================================= -->
+  <!-- Base link (rear axle center) -->
+  <!-- ================================================= -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="2.5 1.2 0.4"/>
+      </geometry>
+      <origin xyz="1.15 0 0.4"/>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="2.5 1.2 0.4"/>
+      </geometry>
+      <origin xyz="1.15 0 0.4"/>
+    </collision>
+
+    <inertial>
+      <mass value="250"/>
+      <origin xyz="1.15 0 0.4"/>
+      <inertia ixx="40" ixy="0" ixz="0"
+               iyy="60" iyz="0"
+               izz="80"/>
+    </inertial>
+  </link>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- Wheel macro -->
+  <!-- ================================================= -->
+  <xacro:macro name="wheel" params="name">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <origin rpy="1.5708 0 0"/>
+      </visual>
+
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <origin rpy="1.5708 0 0"/>
+      </collision>
+
+      <inertial>
+        <mass value="15"/>
+        <inertia ixx="0.3" ixy="0" ixz="0"
+                 iyy="0.3" iyz="0"
+                 izz="0.3"/>
+      </inertial>
+    </link>
+  </xacro:macro>
+
+  <!-- ================================================= -->
+  <!-- Rear wheels (DRIVE) -->
+  <!-- ================================================= -->
+  <xacro:wheel name="rear_left_wheel_link"/>
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_left_wheel_link"/>
+    <origin xyz="0 ${track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <xacro:wheel name="rear_right_wheel_link"/>
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_right_wheel_link"/>
+    <origin xyz="0 ${-track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- SINGLE STEERING JOINT (Ackermann requirement) -->
+  <!-- ================================================= -->
+  <link name="steering_link">
+    <inertial>
+      <mass value="2.0"/>
+      <inertia ixx="0.01" ixy="0" ixz="0"
+               iyy="0.01" iyz="0"
+               izz="0.01"/>
+    </inertial>
+  </link>
+
+  <joint name="steering_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="steering_link"/>
+    <origin xyz="${wheelbase} 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.6" upper="0.6" effort="80" velocity="1.5"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- Front wheels (PASSIVE, steered by steering_joint) -->
+  <!-- ================================================= -->
+  <xacro:wheel name="front_left_wheel_link"/>
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="steering_link"/>
+    <child link="front_left_wheel_link"/>
+    <origin xyz="0 ${track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <xacro:wheel name="front_right_wheel_link"/>
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="steering_link"/>
+    <child link="front_right_wheel_link"/>
+    <origin xyz="0 ${-track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- ROS2 CONTROL -->
+  <!-- ================================================= -->
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <joint name="rear_left_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="rear_right_wheel_joint">
+      <command_interface name="velocity"/>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="steering_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ================================================= -->
+  <!-- Gazebo plugin -->
+  <!-- ================================================= -->
+<gazebo>
+  <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+    <!-- <robot_param>robot_description</robot_param> -->
+    <!-- <robot_param_node>robot_state_publisher</robot_param_node> -->
+    <parameters> $(find golf_cart_description)/config/ackermann_controller.yaml </parameters>
+  </plugin>
+</gazebo>
+
+  <!-- ================================================= -->
+  <!-- Gazebo wheel friction (VERY IMPORTANT) -->
+  <!-- ================================================= -->
+
+</robot>

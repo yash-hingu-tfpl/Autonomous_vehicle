@@ -1,0 +1,54 @@
+[0.020s] Invoking command in '/home/developer/ros2_ws/build/golf_cart_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/golf_cart_description -- -j4 -l4
+[0.077s] Invoked command in '/home/developer/ros2_ws/build/golf_cart_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/golf_cart_description -- -j4 -l4
+[0.092s] Invoking command in '/home/developer/ros2_ws/build/golf_cart_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --install /home/developer/ros2_ws/build/golf_cart_description
+[0.103s] -- Install configuration: ""
+[0.104s] -- Execute custom install script
+[0.105s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/display.launch.py
+[0.105s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/fake_display.launch.py
+[0.105s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/gazebo.launch.py
+[0.105s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/golf_cart_full_nav.launch.py
+[0.106s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/new_gazebo.launch.py
+[0.106s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/rtab_setup.launch.py
+[0.106s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/rtab_test.launch.py
+[0.106s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/rtabmap_localization.launch.py
+[0.107s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/rtabmap_mapping.launch.py
+[0.107s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/sim.launch.py
+[0.107s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/launch/teleop_ackermann.launch.py
+[0.108s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/Golf_cart_my/model.config
+[0.108s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/Golf_cart_my/model.sdf
+[0.108s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/Golf_cart_my/model.urdf
+[0.108s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/_d455.urdf.xacro
+[0.108s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/carlikebot_description.urdf.xacro
+[0.109s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/d455.urdf
+[0.109s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/fake_cart.xacro
+[0.109s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/gazebo.xacro
+[0.111s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart.urdf
+[0.111s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart.urdf.xacro
+[0.111s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart2.urdf
+[0.112s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart2.urdf.xacro
+[0.112s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart3.urdf
+[0.112s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart3.urdf.xacro
+[0.112s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart_ackermann.urdf
+[0.113s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golf_cart_ackermann.xacro
+[0.113s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/golfcar_new.xacro
+[0.113s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/test.urdf
+[0.114s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/urdf/test_d455_camera.urdf.xacro
+[0.114s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/config/ackermann2.yaml
+[0.115s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/config/ackermann_controller.yaml
+[0.115s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/config/fake_controller.yaml
+[0.115s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/ament_index/resource_index/package_run_dependencies/golf_cart_description
+[0.115s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/ament_index/resource_index/parent_prefix_path/golf_cart_description
+[0.115s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/environment/ament_prefix_path.sh
+[0.116s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/environment/ament_prefix_path.dsv
+[0.116s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/environment/path.sh
+[0.117s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/environment/path.dsv
+[0.117s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/local_setup.bash
+[0.117s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/local_setup.sh
+[0.118s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/local_setup.zsh
+[0.119s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/local_setup.dsv
+[0.119s] -- Symlinking: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/package.dsv
+[0.132s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/ament_index/resource_index/packages/golf_cart_description
+[0.133s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/cmake/golf_cart_descriptionConfig.cmake
+[0.133s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/cmake/golf_cart_descriptionConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/developer/ros2_ws/install/golf_cart_description/share/golf_cart_description/package.xml
+[0.137s] Invoked command in '/home/developer/ros2_ws/build/golf_cart_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --install /home/developer/ros2_ws/build/golf_cart_description

@@ -1,0 +1,4 @@
+source;share/golf_cart_description/local_setup.bash
+source;share/golf_cart_description/local_setup.dsv
+source;share/golf_cart_description/local_setup.sh
+source;share/golf_cart_description/local_setup.zsh

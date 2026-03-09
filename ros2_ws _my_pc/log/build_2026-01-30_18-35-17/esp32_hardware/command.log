@@ -1,0 +1,2 @@
+Invoking command in '/home/developer/ros2_ws/build/esp32_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4
+Invoked command in '/home/developer/ros2_ws/build/esp32_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4

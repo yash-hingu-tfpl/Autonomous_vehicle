@@ -1,0 +1,4 @@
+# A service to send a file path.
+
+# Request
+string file_path

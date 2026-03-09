@@ -1,0 +1,17 @@
+[0.028s] Invoking command in '/home/developer/ros2_ws/build/esp32_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target esp32_hardware[0m
+[0.136s] [ 50%] [32mBuilding CXX object CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o[0m
+[5.100s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_hardware::ESP32Hardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[5.100s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:133:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+[5.100s]   133 | [01;31m[Ksteering_pub_[m[K = node_->create_publisher<std_msgs::msg::Float32>(
+[5.100s]       | [01;31m[K^~~~~~~~~~~~~[m[K
+[5.100s]       | [32m[Ksteering_sub_[m[K
+[5.141s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_hardware::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[5.142s] [01m[K/home/developer/ros2_ws/src/esp32_hardware/src/esp32_hardware.cpp:238:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksteering_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksteering_sub_[m[K’?
+[5.142s]   238 |   [01;31m[Ksteering_pub_[m[K->publish(steer_msg);
+[5.142s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[5.142s]       |   [32m[Ksteering_sub_[m[K
+[10.140s] gmake[2]: *** [CMakeFiles/esp32_hardware.dir/build.make:76: CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o] Error 1
+[10.140s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/esp32_hardware.dir/all] Error 2
+[10.141s] gmake: *** [Makefile:146: all] Error 2
+[10.145s] Invoked command in '/home/developer/ros2_ws/build/esp32_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake --build /home/developer/ros2_ws/build/esp32_hardware -- -j4 -l4

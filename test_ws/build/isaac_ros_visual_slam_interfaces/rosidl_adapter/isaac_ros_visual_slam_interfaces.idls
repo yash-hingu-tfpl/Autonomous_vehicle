@@ -1,0 +1,6 @@
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:msg/VisualSlamStatus.idl
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:srv/GetAllPoses.idl
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:srv/Reset.idl
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:srv/SetSlamPose.idl
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:srv/FilePath.idl
+/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/rosidl_adapter/isaac_ros_visual_slam_interfaces:srv/LocalizeInMap.idl

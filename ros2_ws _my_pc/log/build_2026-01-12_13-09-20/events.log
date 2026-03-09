@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (-) JobUnselected: {'identifier': 'esp32_hardware'}
+[0.000804] (-) JobUnselected: {'identifier': 'golf_cart_description'}
+[0.000838] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000865] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000890] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000919] (golf_cart_nav2) JobQueued: {'identifier': 'golf_cart_nav2', 'dependencies': OrderedDict()}
+[0.000948] (golf_cart_nav2) JobStarted: {'identifier': 'golf_cart_nav2'}
+[0.099443] (-) TimerEvent: {}
+[0.199775] (-) TimerEvent: {}
+[0.300116] (-) TimerEvent: {}
+[0.400413] (-) TimerEvent: {}
+[0.401877] (golf_cart_nav2) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 40, in get_data_files_mapping\n    assert isinstance(sources, list)\nAssertionError\n'}
+[0.402528] (golf_cart_nav2) JobEnded: {'identifier': 'golf_cart_nav2', 'rc': 1}
+[0.412471] (-) EventReactorShutdown: {}

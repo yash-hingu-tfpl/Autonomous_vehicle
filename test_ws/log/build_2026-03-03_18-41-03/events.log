@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.002729] (-) JobUnselected: {'identifier': 'custom_nitros_dnn_image_encoder'}
+[0.002831] (-) JobUnselected: {'identifier': 'custom_nitros_image'}
+[0.002879] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter'}
+[0.002923] (-) JobUnselected: {'identifier': 'custom_nitros_message_filter_interfaces'}
+[0.002965] (-) JobUnselected: {'identifier': 'custom_nitros_string'}
+[0.003007] (-) JobUnselected: {'identifier': 'gxf_isaac_argus'}
+[0.003046] (-) JobUnselected: {'identifier': 'gxf_isaac_atlas'}
+[0.003087] (-) JobUnselected: {'identifier': 'gxf_isaac_camera_utils'}
+[0.003126] (-) JobUnselected: {'identifier': 'gxf_isaac_cuda'}
+[0.003170] (-) JobUnselected: {'identifier': 'gxf_isaac_flatscan_localization'}
+[0.003211] (-) JobUnselected: {'identifier': 'gxf_isaac_gems'}
+[0.003251] (-) JobUnselected: {'identifier': 'gxf_isaac_gxf_helpers'}
+[0.003290] (-) JobUnselected: {'identifier': 'gxf_isaac_hesai'}
+[0.003329] (-) JobUnselected: {'identifier': 'gxf_isaac_localization'}
+[0.003369] (-) JobUnselected: {'identifier': 'gxf_isaac_message_compositor'}
+[0.003410] (-) JobUnselected: {'identifier': 'gxf_isaac_messages'}
+[0.003450] (-) JobUnselected: {'identifier': 'gxf_isaac_messages_throttler'}
+[0.003490] (-) JobUnselected: {'identifier': 'gxf_isaac_optimizer'}
+[0.003532] (-) JobUnselected: {'identifier': 'gxf_isaac_point_cloud'}
+[0.003603] (-) JobUnselected: {'identifier': 'gxf_isaac_range_scan_processing'}
+[0.003647] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_cuda'}
+[0.003688] (-) JobUnselected: {'identifier': 'gxf_isaac_ros_messages'}
+[0.003757] (-) JobUnselected: {'identifier': 'gxf_isaac_segway'}
+[0.003799] (-) JobUnselected: {'identifier': 'gxf_isaac_sight'}
+[0.003840] (-) JobUnselected: {'identifier': 'gxf_isaac_timestamp_correlator'}
+[0.003881] (-) JobUnselected: {'identifier': 'gxf_isaac_utils'}
+[0.003922] (-) JobUnselected: {'identifier': 'isaac_common'}
+[0.003964] (-) JobUnselected: {'identifier': 'isaac_common_py'}
+[0.004004] (-) JobUnselected: {'identifier': 'isaac_ros_apriltag_interfaces'}
+[0.004046] (-) JobUnselected: {'identifier': 'isaac_ros_common'}
+[0.004088] (-) JobUnselected: {'identifier': 'isaac_ros_gxf'}
+[0.004131] (-) JobUnselected: {'identifier': 'isaac_ros_launch_utils'}
+[0.004175] (-) JobUnselected: {'identifier': 'isaac_ros_managed_nitros'}
+[0.004223] (-) JobUnselected: {'identifier': 'isaac_ros_nitros'}
+[0.004263] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_battery_state_type'}
+[0.004303] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_interfaces'}
+[0.004344] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_bridge_ros2'}
+[0.004390] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_camera_info_type'}
+[0.004435] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_image_type'}
+[0.005394] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_compressed_video_type'}
+[0.005475] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_correlated_timestamp_type'}
+[0.005513] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection2_d_array_type'}
+[0.005561] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_detection3_d_array_type'}
+[0.005621] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_disparity_image_type'}
+[0.005665] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_encoder_ticks_type'}
+[0.005706] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_flat_scan_type'}
+[0.005748] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_image_type'}
+[0.005789] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_imu_type'}
+[0.005829] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_occupancy_grid_type'}
+[0.005870] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_odometry_type'}
+[0.005911] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_point_cloud_type'}
+[0.005952] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_array_type'}
+[0.005992] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_pose_cov_stamped_type'}
+[0.006032] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_std_msg_type'}
+[0.006075] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_tensor_list_type'}
+[0.006142] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_topic_tools'}
+[0.006182] (-) JobUnselected: {'identifier': 'isaac_ros_nitros_twist_type'}
+[0.006223] (-) JobUnselected: {'identifier': 'isaac_ros_nova_interfaces'}
+[0.006263] (-) JobUnselected: {'identifier': 'isaac_ros_pointcloud_interfaces'}
+[0.006305] (-) JobUnselected: {'identifier': 'isaac_ros_pynitros'}
+[0.006344] (-) JobUnselected: {'identifier': 'isaac_ros_r2b_galileo'}
+[0.006385] (-) JobUnselected: {'identifier': 'isaac_ros_tensor_list_interfaces'}
+[0.006424] (-) JobUnselected: {'identifier': 'isaac_ros_test'}
+[0.006464] (-) JobUnselected: {'identifier': 'isaac_ros_test_cmake'}
+[0.006503] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam'}
+[0.006569] (-) JobUnselected: {'identifier': 'isaac_ros_visual_slam_interfaces'}
+[0.006625] (ackermann_vehicle) JobQueued: {'identifier': 'ackermann_vehicle', 'dependencies': OrderedDict()}
+[0.006672] (ackermann_vehicle) JobStarted: {'identifier': 'ackermann_vehicle'}
+[0.099874] (-) TimerEvent: {}
+[0.200320] (-) TimerEvent: {}
+[0.301114] (-) TimerEvent: {}
+[0.401751] (-) TimerEvent: {}
+[0.502440] (-) TimerEvent: {}
+[0.605611] (-) TimerEvent: {}
+[0.706025] (-) TimerEvent: {}
+[0.806626] (-) TimerEvent: {}
+[0.907066] (-) TimerEvent: {}
+[1.008224] (-) TimerEvent: {}
+[1.109486] (-) TimerEvent: {}
+[1.212711] (-) TimerEvent: {}
+[1.313610] (-) TimerEvent: {}
+[1.414365] (-) TimerEvent: {}
+[1.516253] (-) TimerEvent: {}
+[1.617615] (-) TimerEvent: {}
+[1.718100] (-) TimerEvent: {}
+[1.821012] (-) TimerEvent: {}
+[1.921469] (-) TimerEvent: {}
+[2.021925] (-) TimerEvent: {}
+[2.124079] (-) TimerEvent: {}
+[2.224493] (-) TimerEvent: {}
+[2.327318] (-) TimerEvent: {}
+[2.427840] (-) TimerEvent: {}
+[2.528919] (-) TimerEvent: {}
+[2.629750] (-) TimerEvent: {}
+[2.731661] (-) TimerEvent: {}
+[2.832277] (-) TimerEvent: {}
+[2.935190] (-) TimerEvent: {}
+[3.035778] (-) TimerEvent: {}
+[3.138458] (-) TimerEvent: {}
+[3.240131] (-) TimerEvent: {}
+[3.340558] (-) TimerEvent: {}
+[3.443288] (-) TimerEvent: {}
+[3.544845] (-) TimerEvent: {}
+[3.646402] (-) TimerEvent: {}
+[3.748196] (-) TimerEvent: {}
+[3.848711] (-) TimerEvent: {}
+[3.950619] (-) TimerEvent: {}
+[3.977478] (ackermann_vehicle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ackermann_vehicle', 'build', '--build-base', '/home/developer/test_ws/build/ackermann_vehicle/build', 'install', '--record', '/home/developer/test_ws/build/ackermann_vehicle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/developer/test_ws/src/ackermann_vehicle', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'developer', 'XDG_SESSION_TYPE': 'wayland', 'PLATFORMIO_PYTHON_CMD': '/home/developer/.platformio/penv/bin/python', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib', 'HOME': '/home/developer', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1750', 'SYSTEMD_EXEC_PID': '1922', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3308', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/developer/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'developer', 'JOURNAL_STREAM': '8:14584', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'developer', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/developer:@/tmp/.ICE-unix/1889,unix/developer:/tmp/.ICE-unix/1889', 'INVOCATION_ID': '03059786f80d442d89935778ccc89522', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8OAYL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a4b5eff6-d08f-46ff-9205-2d34b6e5a89e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GAZEBO_EXECUTABLE': 'gazebo-11.10.2', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/developer/test_ws/build/ackermann_vehicle', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/developer/test_ws/build/ackermann_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node'}, 'shell': False}
+[4.053325] (-) TimerEvent: {}
+[4.154143] (-) TimerEvent: {}
+[4.256620] (-) TimerEvent: {}
+[4.357063] (-) TimerEvent: {}
+[4.457526] (-) TimerEvent: {}
+[4.558096] (-) TimerEvent: {}
+[4.660576] (-) TimerEvent: {}
+[4.762896] (-) TimerEvent: {}
+[4.865499] (-) TimerEvent: {}
+[4.968597] (-) TimerEvent: {}
+[5.069049] (-) TimerEvent: {}
+[5.103939] (ackermann_vehicle) StdoutLine: {'line': b'running egg_info\n'}
+[5.105240] (ackermann_vehicle) StdoutLine: {'line': b'writing ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/PKG-INFO\n'}
+[5.105529] (ackermann_vehicle) StdoutLine: {'line': b'writing dependency_links to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/dependency_links.txt\n'}
+[5.110348] (ackermann_vehicle) StdoutLine: {'line': b'writing entry points to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/entry_points.txt\n'}
+[5.110644] (ackermann_vehicle) StdoutLine: {'line': b'writing requirements to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/requires.txt\n'}
+[5.110850] (ackermann_vehicle) StdoutLine: {'line': b'writing top-level names to ../../build/ackermann_vehicle/ackermann_vehicle.egg-info/top_level.txt\n'}
+[5.116659] (ackermann_vehicle) StdoutLine: {'line': b"reading manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[5.117789] (ackermann_vehicle) StdoutLine: {'line': b"writing manifest file '../../build/ackermann_vehicle/ackermann_vehicle.egg-info/SOURCES.txt'\n"}
+[5.118019] (ackermann_vehicle) StdoutLine: {'line': b'running build\n'}
+[5.118175] (ackermann_vehicle) StdoutLine: {'line': b'running build_py\n'}
+[5.118322] (ackermann_vehicle) StdoutLine: {'line': b'running install\n'}
+[5.118469] (ackermann_vehicle) StdoutLine: {'line': b'running install_lib\n'}
+[5.129428] (ackermann_vehicle) StdoutLine: {'line': b'running install_data\n'}
+[5.129842] (ackermann_vehicle) StdoutLine: {'line': b'copying description/fake_cart.xacro -> /home/developer/test_ws/install/ackermann_vehicle/share/ackermann_vehicle/description\n'}
+[5.130048] (ackermann_vehicle) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.130216] (ackermann_vehicle) StdoutLine: {'line': b"removing '/home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.130376] (ackermann_vehicle) StdoutLine: {'line': b'Copying ../../build/ackermann_vehicle/ackermann_vehicle.egg-info to /home/developer/test_ws/install/ackermann_vehicle/lib/python3.10/site-packages/ackermann_vehicle-0.0.0-py3.10.egg-info\n'}
+[5.135240] (ackermann_vehicle) StdoutLine: {'line': b'running install_scripts\n'}
+[5.170473] (-) TimerEvent: {}
+[5.211355] (ackermann_vehicle) StdoutLine: {'line': b"writing list of installed files to '/home/developer/test_ws/build/ackermann_vehicle/install.log'\n"}
+[5.278605] (-) TimerEvent: {}
+[5.319839] (ackermann_vehicle) CommandEnded: {'returncode': 0}
+[5.383240] (-) TimerEvent: {}
+[5.436552] (ackermann_vehicle) JobEnded: {'identifier': 'ackermann_vehicle', 'rc': 0}
+[5.442193] (-) EventReactorShutdown: {}

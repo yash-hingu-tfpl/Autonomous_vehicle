@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000545] (-) JobUnselected: {'identifier': 'golf_cart_description'}
+[0.000753] (-) JobUnselected: {'identifier': 'golf_cart_nav2'}
+[0.000789] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000816] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000842] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000872] (esp32_hardware) JobQueued: {'identifier': 'esp32_hardware', 'dependencies': OrderedDict()}
+[0.000902] (esp32_hardware) JobStarted: {'identifier': 'esp32_hardware'}
+[0.013895] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'cmake'}
+[0.014676] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'build'}
+[0.015621] (esp32_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/developer/ros2_ws/build/esp32_hardware', '--', '-j4', '-l4'], 'cwd': '/home/developer/ros2_ws/build/esp32_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('XDG_SESSION_TYPE', 'wayland'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/developer/ros2_ws/install/realsense2_camera/lib:/home/developer/ros2_ws/install/realsense2_camera_msgs/lib:/home/developer/ros2_ws/install/esp32_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('OLDPWD', '/home/developer/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1658'), ('SYSTEMD_EXEC_PID', '1829'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5244'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/ros2_ws/install:/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:12133'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1794,unix/developer:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', '094bc90d0f734531b42300d2b8a4baab'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.495WJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_nav2:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b5cf9395-89b4-4fc8-8ded-cb7b87026b22'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/esp32_hardware'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/developer/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble')]), 'shell': False}
+[0.074096] (esp32_hardware) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target esp32_hardware\x1b[0m\n'}
+[0.095822] (esp32_hardware) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/esp32_hardware.dir/src/esp32_hardware.cpp.o\x1b[0m\n'}
+[0.099393] (-) TimerEvent: {}
+[0.199749] (-) TimerEvent: {}
+[0.300100] (-) TimerEvent: {}
+[0.400451] (-) TimerEvent: {}
+[0.500787] (-) TimerEvent: {}
+[0.601149] (-) TimerEvent: {}
+[0.701508] (-) TimerEvent: {}
+[0.801869] (-) TimerEvent: {}
+[0.902235] (-) TimerEvent: {}
+[1.002646] (-) TimerEvent: {}
+[1.103011] (-) TimerEvent: {}
+[1.203383] (-) TimerEvent: {}
+[1.303802] (-) TimerEvent: {}
+[1.404169] (-) TimerEvent: {}
+[1.504536] (-) TimerEvent: {}
+[1.604903] (-) TimerEvent: {}
+[1.705268] (-) TimerEvent: {}
+[1.805733] (-) TimerEvent: {}
+[1.906107] (-) TimerEvent: {}
+[2.006504] (-) TimerEvent: {}
+[2.106868] (-) TimerEvent: {}
+[2.207199] (-) TimerEvent: {}
+[2.307562] (-) TimerEvent: {}
+[2.407910] (-) TimerEvent: {}
+[2.508270] (-) TimerEvent: {}
+[2.608625] (-) TimerEvent: {}
+[2.708930] (-) TimerEvent: {}
+[2.809275] (-) TimerEvent: {}
+[2.909615] (-) TimerEvent: {}
+[3.009944] (-) TimerEvent: {}
+[3.110308] (-) TimerEvent: {}
+[3.210656] (-) TimerEvent: {}
+[3.310986] (-) TimerEvent: {}
+[3.411311] (-) TimerEvent: {}
+[3.511656] (-) TimerEvent: {}
+[3.612051] (-) TimerEvent: {}
+[3.712419] (-) TimerEvent: {}
+[3.812806] (-) TimerEvent: {}
+[3.913178] (-) TimerEvent: {}
+[4.013550] (-) TimerEvent: {}
+[4.113914] (-) TimerEvent: {}
+[4.214277] (-) TimerEvent: {}
+[4.314595] (-) TimerEvent: {}
+[4.414949] (-) TimerEvent: {}
+[4.515315] (-) TimerEvent: {}
+[4.615669] (-) TimerEvent: {}
+[4.716017] (-) TimerEvent: {}
+[4.816359] (-) TimerEvent: {}
+[4.916741] (-) TimerEvent: {}
+[5.017083] (-) TimerEvent: {}
+[5.117478] (-) TimerEvent: {}
+[5.217850] (-) TimerEvent: {}
+[5.318210] (-) TimerEvent: {}
+[5.418580] (-) TimerEvent: {}
+[5.518937] (-) TimerEvent: {}
+[5.619257] (-) TimerEvent: {}
+[5.719577] (-) TimerEvent: {}
+[5.819886] (-) TimerEvent: {}
+[5.920210] (-) TimerEvent: {}
+[6.020539] (-) TimerEvent: {}
+[6.120893] (-) TimerEvent: {}
+[6.221257] (-) TimerEvent: {}
+[6.321601] (-) TimerEvent: {}
+[6.421942] (-) TimerEvent: {}
+[6.522321] (-) TimerEvent: {}
+[6.622663] (-) TimerEvent: {}
+[6.723020] (-) TimerEvent: {}
+[6.823453] (-) TimerEvent: {}
+[6.923829] (-) TimerEvent: {}
+[7.024215] (-) TimerEvent: {}
+[7.124573] (-) TimerEvent: {}
+[7.225144] (-) TimerEvent: {}
+[7.325537] (-) TimerEvent: {}
+[7.425902] (-) TimerEvent: {}
+[7.526271] (-) TimerEvent: {}
+[7.626639] (-) TimerEvent: {}
+[7.727054] (-) TimerEvent: {}
+[7.827422] (-) TimerEvent: {}
+[7.927811] (-) TimerEvent: {}
+[8.028169] (-) TimerEvent: {}
+[8.128514] (-) TimerEvent: {}
+[8.228892] (-) TimerEvent: {}
+[8.329263] (-) TimerEvent: {}
+[8.429657] (-) TimerEvent: {}
+[8.530026] (-) TimerEvent: {}
+[8.630401] (-) TimerEvent: {}
+[8.730795] (-) TimerEvent: {}
+[8.831189] (-) TimerEvent: {}
+[8.931567] (-) TimerEvent: {}
+[9.031943] (-) TimerEvent: {}
+[9.132323] (-) TimerEvent: {}
+[9.232706] (-) TimerEvent: {}
+[9.333072] (-) TimerEvent: {}
+[9.433460] (-) TimerEvent: {}
+[9.533830] (-) TimerEvent: {}
+[9.634202] (-) TimerEvent: {}
+[9.734628] (-) TimerEvent: {}
+[9.835017] (-) TimerEvent: {}
+[9.935419] (-) TimerEvent: {}
+[10.035863] (-) TimerEvent: {}
+[10.136288] (-) TimerEvent: {}
+[10.236730] (-) TimerEvent: {}
+[10.337139] (-) TimerEvent: {}
+[10.437531] (-) TimerEvent: {}
+[10.537954] (-) TimerEvent: {}
+[10.638358] (-) TimerEvent: {}
+[10.738796] (-) TimerEvent: {}
+[10.839200] (-) TimerEvent: {}
+[10.939611] (-) TimerEvent: {}
+[11.040182] (-) TimerEvent: {}
+[11.140653] (-) TimerEvent: {}
+[11.240980] (-) TimerEvent: {}
+[11.341293] (-) TimerEvent: {}
+[11.441626] (-) TimerEvent: {}
+[11.541981] (-) TimerEvent: {}
+[11.642301] (-) TimerEvent: {}
+[11.742720] (-) TimerEvent: {}
+[11.843107] (-) TimerEvent: {}
+[11.943508] (-) TimerEvent: {}
+[12.043830] (-) TimerEvent: {}
+[12.144178] (-) TimerEvent: {}
+[12.244528] (-) TimerEvent: {}
+[12.292247] (esp32_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libesp32_hardware.so\x1b[0m\n'}
+[12.344672] (-) TimerEvent: {}
+[12.445082] (-) TimerEvent: {}
+[12.545569] (-) TimerEvent: {}
+[12.645965] (-) TimerEvent: {}
+[12.746428] (-) TimerEvent: {}
+[12.846756] (-) TimerEvent: {}
+[12.947104] (-) TimerEvent: {}
+[13.020142] (esp32_hardware) StdoutLine: {'line': b'[100%] Built target esp32_hardware\n'}
+[13.034474] (esp32_hardware) CommandEnded: {'returncode': 0}
+[13.035488] (esp32_hardware) JobProgress: {'identifier': 'esp32_hardware', 'progress': 'install'}
+[13.047671] (esp32_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/developer/ros2_ws/build/esp32_hardware'], 'cwd': '/home/developer/ros2_ws/build/esp32_hardware', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'developer'), ('XDG_SESSION_TYPE', 'wayland'), ('PLATFORMIO_PYTHON_CMD', '/home/developer/.platformio/penv/bin/python'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/home/developer/ros2_ws/install/realsense2_camera/lib:/home/developer/ros2_ws/install/realsense2_camera_msgs/lib:/home/developer/ros2_ws/install/esp32_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/opt/openvdb_vendor/lib:/opt/ros/humble/lib'), ('HOME', '/home/developer'), ('OLDPWD', '/home/developer/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1658'), ('SYSTEMD_EXEC_PID', '1829'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5244'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/developer/ros2_ws/install:/home/developer/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'developer'), ('JOURNAL_STREAM', '8:12133'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'developer'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/humble/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/developer/.local/bin:/opt/ros/humble/bin:/home/developer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/developer:@/tmp/.ICE-unix/1794,unix/developer:/tmp/.ICE-unix/1794'), ('INVOCATION_ID', '094bc90d0f734531b42300d2b8a4baab'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.495WJ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_nav2:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b5cf9395-89b4-4fc8-8ded-cb7b87026b22'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_EXECUTABLE', 'gazebo-11.10.2'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/developer/ros2_ws/build/esp32_hardware'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/developer/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/developer/ros2_ws/install/golf_cart_nav2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/developer/ros2_ws/install/realsense2_description:/home/developer/ros2_ws/install/realsense2_camera:/home/developer/ros2_ws/install/realsense2_camera_msgs:/home/developer/ros2_ws/install/golf_cart_description:/home/developer/ros2_ws/install/esp32_hardware:/home/developer/turtlebot3_ws/install/turtlebot3_simulations:/home/developer/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_gazebo:/home/developer/turtlebot3_ws/install/turtlebot3_fake_node:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble')]), 'shell': False}
+[13.048903] (-) TimerEvent: {}
+[13.058145] (esp32_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.058525] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/esp32_hardware.xml\n'}
+[13.058847] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/lib/libesp32_hardware.so\n'}
+[13.066405] (esp32_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/developer/ros2_ws/install/esp32_hardware/lib/libesp32_hardware.so" to ""\n'}
+[13.066885] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include\n'}
+[13.067151] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/golf_cart_hardware\n'}
+[13.067420] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/golf_cart_hardware/golf_cart_hardware.hpp\n'}
+[13.067694] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/esp32_hardware\n'}
+[13.067920] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/include/esp32_hardware/esp32_hardware.hpp\n'}
+[13.068092] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/esp32_hardware.xml\n'}
+[13.068310] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/package_run_dependencies/esp32_hardware\n'}
+[13.068533] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/parent_prefix_path/esp32_hardware\n'}
+[13.068737] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/ament_prefix_path.sh\n'}
+[13.068901] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/ament_prefix_path.dsv\n'}
+[13.069054] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/path.sh\n'}
+[13.069202] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/environment/path.dsv\n'}
+[13.069353] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.bash\n'}
+[13.069508] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.sh\n'}
+[13.069647] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.zsh\n'}
+[13.069776] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/local_setup.dsv\n'}
+[13.069903] (esp32_hardware) StdoutLine: {'line': b'-- Installing: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/package.dsv\n'}
+[13.070031] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/packages/esp32_hardware\n'}
+[13.070160] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/esp32_hardware\n'}
+[13.070296] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/cmake/esp32_hardwareConfig.cmake\n'}
+[13.070427] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/cmake/esp32_hardwareConfig-version.cmake\n'}
+[13.070579] (esp32_hardware) StdoutLine: {'line': b'-- Up-to-date: /home/developer/ros2_ws/install/esp32_hardware/share/esp32_hardware/package.xml\n'}
+[13.071487] (esp32_hardware) CommandEnded: {'returncode': 0}
+[13.101393] (esp32_hardware) JobEnded: {'identifier': 'esp32_hardware', 'rc': 0}
+[13.102549] (-) EventReactorShutdown: {}

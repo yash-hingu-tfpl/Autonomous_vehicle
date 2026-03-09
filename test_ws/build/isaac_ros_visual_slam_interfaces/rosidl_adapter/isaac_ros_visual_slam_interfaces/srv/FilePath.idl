@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from isaac_ros_visual_slam_interfaces/srv/FilePath.srv
+// generated code does not contain a copyright notice
+
+
+module isaac_ros_visual_slam_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "A service to send a file path.")
+    struct FilePath_Request {
+      @verbatim (language="comment", text=
+        "Request")
+      string file_path;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct FilePath_Response {
+      boolean success;
+    };
+  };
+};

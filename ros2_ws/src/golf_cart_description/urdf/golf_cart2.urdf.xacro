@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="golf_cart">
+
+  <!-- ================================================= -->
+  <!-- Parameters (meters, radians, kg) -->
+  <!-- ================================================= -->
+  <xacro:property name="wheel_diameter" value="0.471"/>
+  <xacro:property name="wheel_radius"   value="0.2355"/>
+  <xacro:property name="wheel_width"    value="0.19304"/>
+
+  <xacro:property name="wheelbase"      value="2.30"/>
+  <xacro:property name="track_width"    value="1.005"/>
+
+  <!-- ================================================= -->
+  <!-- Dummy root link (KDL safe) -->
+  <!-- ================================================= -->
+  <link name="base_footprint"/>
+
+  <!-- ================================================= -->
+  <!-- Base link (rear axle center) -->
+  <!-- ================================================= -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="2.5 1.2 0.4"/>
+      </geometry>
+      <origin xyz="1.15 0 0.4"/>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="2.5 1.2 0.4"/>
+      </geometry>
+      <origin xyz="1.15 0 0.4"/>
+    </collision>
+
+    <inertial>
+      <mass value="250"/>
+      <origin xyz="1.15 0 0.4"/>
+      <inertia
+        ixx="40" ixy="0" ixz="0"
+        iyy="60" iyz="0"
+        izz="80"/>
+    </inertial>
+  </link>
+
+  <joint name="base_footprint_to_base_link" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- Wheel macro -->
+  <!-- ================================================= -->
+  <xacro:macro name="wheel" params="name">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <!-- rotate cylinder to roll on Y -->
+        <origin rpy="1.5708 0 0"/>
+      </visual>
+
+      <collision>
+        <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+        </geometry>
+        <origin rpy="1.5708 0 0"/>
+      </collision>
+
+      <inertial>
+        <mass value="15"/>
+        <inertia
+          ixx="0.3" ixy="0" ixz="0"
+          iyy="0.3" iyz="0"
+          izz="0.3"/>
+      </inertial>
+    </link>
+  </xacro:macro>
+
+  <!-- ================================================= -->
+  <!-- Rear wheels (drive only) -->
+  <!-- ================================================= -->
+
+  <xacro:wheel name="rear_left_wheel_link"/>
+  <joint name="rear_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_left_wheel_link"/>
+    <origin xyz="0 ${track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <xacro:wheel name="rear_right_wheel_link"/>
+  <joint name="rear_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="rear_right_wheel_link"/>
+    <origin xyz="0 ${-track_width/2} ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- Front steering links -->
+  <!-- ================================================= -->
+
+  <link name="front_left_steer_link"/>
+  <joint name="front_left_steer_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="front_left_steer_link"/>
+    <origin xyz="${wheelbase} ${track_width/2} 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.6" upper="0.6" effort="80" velocity="1.5"/>
+  </joint>
+
+  <link name="front_right_steer_link"/>
+  <joint name="front_right_steer_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="front_right_steer_link"/>
+    <origin xyz="${wheelbase} ${-track_width/2} 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.6" upper="0.6" effort="80" velocity="1.5"/>
+  </joint>
+
+  <!-- ================================================= -->
+  <!-- Front wheels (steer + roll) -->
+  <!-- ================================================= -->
+
+  <xacro:wheel name="front_left_wheel_link"/>
+  <joint name="front_left_wheel_joint" type="continuous">
+    <parent link="front_left_steer_link"/>
+    <child link="front_left_wheel_link"/>
+    <origin xyz="0 0 ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <xacro:wheel name="front_right_wheel_link"/>
+  <joint name="front_right_wheel_joint" type="continuous">
+    <parent link="front_right_steer_link"/>
+    <child link="front_right_wheel_link"/>
+    <origin xyz="0 0 ${wheel_radius}"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+
+
+
+
+</robot>

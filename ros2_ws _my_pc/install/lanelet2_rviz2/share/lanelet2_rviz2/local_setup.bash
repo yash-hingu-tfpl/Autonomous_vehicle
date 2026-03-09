@@ -1,0 +1,1 @@
+/home/developer/ros2_ws/build/lanelet2_rviz2/ament_cmake_environment_hooks/local_setup.bash

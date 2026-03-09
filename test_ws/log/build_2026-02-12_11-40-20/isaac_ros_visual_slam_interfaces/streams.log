@@ -1,0 +1,39 @@
+[0.019s] Invoking command in '/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake /home/developer/test_ws/src/isaac_ros_visual_slam_interfaces -DCMAKE_INSTALL_PREFIX=/home/developer/test_ws/install/isaac_ros_visual_slam_interfaces
+[0.299s] -- The C compiler identification is GNU 11.4.0
+[0.484s] -- The CXX compiler identification is GNU 11.4.0
+[0.498s] -- Detecting C compiler ABI info
+[0.621s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.640s] -- Detecting C compile features
+[0.641s] -- Detecting C compile features - done
+[0.651s] -- Detecting CXX compiler ABI info
+[0.795s] -- Detecting CXX compiler ABI info - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.807s] -- Detecting CXX compile features
+[0.808s] -- Detecting CXX compile features - done
+[0.822s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.135s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.519s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.657s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.026s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.031s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.103s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.103s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.103s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.103s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.136s] -- Found PythonExtra: .so  
+[4.274s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.334s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_get_resource.cmake:62 (message):
+[4.334s]   ament_index_get_resource() called with not existing resource
+[4.334s]   ('isaac_ros_common_cmake_path' 'isaac_ros_common')
+[4.334s] Call Stack (most recent call first):
+[4.334s]   CMakeLists.txt:64 (ament_index_get_resource)
+[4.335s] 
+[4.335s] [0m
+[4.335s] -- Configuring incomplete, errors occurred!
+[4.335s] See also "/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces/CMakeFiles/CMakeOutput.log".
+[4.353s] Invoked command in '/home/developer/test_ws/build/isaac_ros_visual_slam_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/install/golf_cart_nav2:/opt/ros/humble /usr/bin/cmake /home/developer/test_ws/src/isaac_ros_visual_slam_interfaces -DCMAKE_INSTALL_PREFIX=/home/developer/test_ws/install/isaac_ros_visual_slam_interfaces

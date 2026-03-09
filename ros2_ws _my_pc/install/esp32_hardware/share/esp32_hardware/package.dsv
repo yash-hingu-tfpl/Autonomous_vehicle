@@ -1,0 +1,11 @@
+source;share/esp32_hardware/hook/cmake_prefix_path.ps1
+source;share/esp32_hardware/hook/cmake_prefix_path.dsv
+source;share/esp32_hardware/hook/cmake_prefix_path.sh
+source;share/esp32_hardware/hook/ld_library_path_lib.ps1
+source;share/esp32_hardware/hook/ld_library_path_lib.dsv
+source;share/esp32_hardware/hook/ld_library_path_lib.sh
+source;share/esp32_hardware/local_setup.bash
+source;share/esp32_hardware/local_setup.dsv
+source;share/esp32_hardware/local_setup.ps1
+source;share/esp32_hardware/local_setup.sh
+source;share/esp32_hardware/local_setup.zsh
